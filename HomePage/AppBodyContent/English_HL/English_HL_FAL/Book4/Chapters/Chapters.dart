@@ -730,6 +730,7 @@ class Quote extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Padding(
+      padding: EdgeInsets.all(12.0),
       child : Text(message,
       style: TextStyle(
         color: Colors.black54,

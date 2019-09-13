@@ -75,7 +75,7 @@ class Othello extends StatelessWidget {
                         height: double.infinity,
                         width: double.infinity,
                         alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[1],
+                        imageUrl: TopicButtonArray().Imageurls[3],
                         placeholder: (context, url) =>
                         new Image.asset("assets/ui_assets/preloader3.gif",
                           width: 90,
