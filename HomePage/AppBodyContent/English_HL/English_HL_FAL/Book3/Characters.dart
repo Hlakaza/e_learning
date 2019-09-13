@@ -68,7 +68,7 @@ class Characters extends StatelessWidget {
                  new CachedNetworkImage(   
                       width: MediaQuery.of(context).size.width,
                       alignment: Alignment.center,
-                      imageUrl: "https://matriclive.com/new_feature/illustrations/animal_farm_image.png",
+                      imageUrl: "https://matriclive.com/new_feature/illustrations/the-great-gatsby.png",
                       placeholder: (context, url) =>
                       new Image.asset("assets/ui_assets/preloader3.gif",
                         width: 180,
