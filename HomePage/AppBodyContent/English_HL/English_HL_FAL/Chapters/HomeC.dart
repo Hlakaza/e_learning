@@ -71,7 +71,55 @@ class ChapterList extends StatelessWidget {
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "Chapter 2",
-                    route: ChapterList(),
+                    route: Chapter2(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 3",
+                    route: Chapter3(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 4",
+                    route: Chapter4(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 5",
+                    route: Chapter5(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 6",
+                    route: Chapter6(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 7",
+                    route: Chapter7(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 8",
+                    route: Chapter8(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 9",
+                    route: Chapter9(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 10",
+                    route: Chapter10(),
                   ),
 
                 ],
