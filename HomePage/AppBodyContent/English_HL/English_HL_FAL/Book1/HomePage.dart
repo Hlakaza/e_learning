@@ -5,6 +5,7 @@ import 'package:page_transition/page_transition.dart';
 
 import '../Chapters/HomeC.dart';
 import '../Summary.dart';
+import '../Characters.dart';
 
 class AnimalFarm extends StatelessWidget {
   @override
@@ -98,12 +99,12 @@ class AnimalFarm extends StatelessWidget {
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "Summary",
-                    route: AnimalFarm(),
+                    route: Summary(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "Characters",
-                    route: Summary(),
+                    route: Characters(),
                   ),
 
                  ],
