@@ -62,7 +62,6 @@ class Quote extends StatelessWidget {
                 fontSize: 12.0,
                 fontFamily: "Quicksand",
                 fontWeight: FontWeight.bold,
-                textAlign: TextAlign.center,
       ),
     ),
   );

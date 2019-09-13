@@ -732,7 +732,6 @@ class Quote extends StatelessWidget {
     return Padding(
       child : Text(message,
       style: TextStyle(
-        textAlign: TextAlign.center,
         color: Colors.black54,
                 fontSize: 12.0,
                 fontFamily: "Quicksand",
