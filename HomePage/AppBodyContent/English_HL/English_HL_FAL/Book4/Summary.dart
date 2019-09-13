@@ -68,7 +68,7 @@ class Summary extends StatelessWidget {
                  new CachedNetworkImage(   
                       width: MediaQuery.of(context).size.width,
                       alignment: Alignment.center,
-                      imageUrl: "https://matriclive.com/new_feature/illustrations/the_crucible.png",
+                      imageUrl: "https://matriclive.com/new_feature/illustrations/othello.jpeg",
                       placeholder: (context, url) =>
                       new Image.asset("assets/ui_assets/preloader3.gif",
                         width: 180,

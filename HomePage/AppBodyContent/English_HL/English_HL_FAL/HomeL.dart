@@ -8,6 +8,7 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'Book1/HomePage.dart';
 import 'Book2/HomePage.dart';
 import 'Book3/HomePage.dart';
+import 'Book4/HomePage.dart';
 
 
 class HomeLanguage extends StatelessWidget
@@ -162,6 +163,8 @@ class _CarouselState extends State<Carousel> {
             case 1 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: TheCrucible()));
             break;
             case 2 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: GreatGastsby()));
+            break;
+            case 3 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Othello()));
             break;
               default :
                 print("You pressed $index page");
