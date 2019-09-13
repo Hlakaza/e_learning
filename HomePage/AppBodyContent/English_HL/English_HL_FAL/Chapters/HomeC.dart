@@ -3,6 +3,8 @@ import '../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
+import  'Chapters.dart';
+
 class ChapterList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -64,7 +66,7 @@ class ChapterList extends StatelessWidget {
 
                   new EnglishButton(
                     title: "Chapter 1",
-                    route: ChapterList(),
+                    route: Chapter1(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(

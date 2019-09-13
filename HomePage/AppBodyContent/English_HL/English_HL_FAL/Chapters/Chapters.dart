@@ -3,6 +3,8 @@ import '../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
+import '../../../TopScrollViewItems/ClassArray/typographyArray.dart';
+
 class Chapter1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -62,61 +64,16 @@ class Chapter1 extends StatelessWidget {
               child: new ListView(
                 children: <Widget>[
 
-                 new Text("Hello2"),
+                titleBold("BEFORE THE EXAM"),
+                spaceBetween(),
+                simpleText("By now you should have done quite a bit of studying for this exam. Think about all that you have done and don’t worry about what you don’t know. Avoid any temptation to start cramming. Be positive!"),
+                
 
                   
                 ],
               ),
             ),
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class EnglishButton extends StatelessWidget {
-
-  // make these final
-  final String title;
-  final Widget route;
-
-  // constructor
-  const EnglishButton({Key key, this.title, this.route}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: (){
-        Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: route));
-      },
-      child: new Container(
-        height: 70.0,
-        width: MediaQuery.of(context).size.width,
-        decoration: new BoxDecoration(
-          //borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-          gradient: new LinearGradient(
-              colors: [TopicButtonArray().ColorTheme[4],TopicButtonArray().ColorTheme[4]],
-              begin: const FractionalOffset(0.5, 0.0),
-              end: const FractionalOffset(0.0, 0.5),
-              stops: [0.0, 1.0],
-              tileMode: TileMode.clamp),
-          boxShadow: [
-            BoxShadow(
-              color: TopicButtonArray().ColorThemeBoxshadow[0],
-              offset: Offset(0.0,  5.0, ),
-              blurRadius: 5.0,
-            ),
-          ],
-        ),
-        child: new Center(
-          child: new Text(title,
-              style: TextStyle(
-                fontSize: 15.0,
-                color: TopicButtonArray().ColorTheme[0],
-                fontFamily: "Quicksand",
-                fontWeight: FontWeight.bold,
-              )),
         ),
       ),
     );
