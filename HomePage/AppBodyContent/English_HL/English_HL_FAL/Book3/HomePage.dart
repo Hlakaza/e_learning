@@ -7,7 +7,7 @@ import 'Chapters/HomeC.dart';
 import 'Summary.dart';
 import 'Characters.dart';
 
-class TheCrucible extends StatelessWidget {
+class GreatGastsby extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -49,7 +49,7 @@ class TheCrucible extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - The Crucible",
+                  new Text("English Home Langauge - The Great Gastsby",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -75,7 +75,7 @@ class TheCrucible extends StatelessWidget {
                         height: double.infinity,
                         width: double.infinity,
                         alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[1],
+                        imageUrl: TopicButtonArray().Imageurls[0],
                         placeholder: (context, url) =>
                         new Image.asset("assets/ui_assets/preloader3.gif",
                           width: 90,
@@ -93,7 +93,7 @@ class TheCrucible extends StatelessWidget {
                   SizedBox(height: 20.0,),
 
                   new EnglishButton(
-                    title: "Act's",
+                    title: "Chapters",
                     route: ChapterList(),
                   ),
                   SizedBox(height: 15.0,),

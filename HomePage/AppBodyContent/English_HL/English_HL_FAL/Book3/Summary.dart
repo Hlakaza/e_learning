@@ -48,7 +48,7 @@ class Summary extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Summary - Animal Farm",
+                  new Text("Summary - The Great Gastsby",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],

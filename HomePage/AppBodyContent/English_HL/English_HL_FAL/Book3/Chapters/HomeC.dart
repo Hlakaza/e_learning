@@ -47,7 +47,7 @@ class ChapterList extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - The Crucible",
+                  new Text("English Home Langauge - The Great Gastsby",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -65,25 +65,61 @@ class ChapterList extends StatelessWidget {
                 children: <Widget>[
 
                   new EnglishButton(
-                    title: "Act |",
+                    title: "Chapter 1",
                     route: Chapter1(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Act ||",
+                    title: "Chapter 2",
                     route: Chapter2(),
                   ),
 
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Act |||",
+                    title: "Chapter 3",
                     route: Chapter3(),
                   ),
 
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Act IV",
+                    title: "Chapter 4",
                     route: Chapter4(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 5",
+                    route: Chapter5(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 6",
+                    route: Chapter6(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 7",
+                    route: Chapter7(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 8",
+                    route: Chapter8(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 9",
+                    route: Chapter9(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 10",
+                    route: Chapter10(),
                   ),
 
                 ],

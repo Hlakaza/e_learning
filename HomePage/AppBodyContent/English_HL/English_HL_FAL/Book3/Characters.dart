@@ -48,7 +48,7 @@ class Characters extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Characters - Animal Farm",
+                  new Text("Characters - The Great Gastsby",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
