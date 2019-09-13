@@ -116,11 +116,7 @@ class ChapterList extends StatelessWidget {
                     route: Chapter9(),
                   ),
 
-                  SizedBox(height: 15.0,),
-                  new EnglishButton(
-                    title: "Chapter 10",
-                    route: Chapter10(),
-                  ),
+                  
 
                 ],
               ),
