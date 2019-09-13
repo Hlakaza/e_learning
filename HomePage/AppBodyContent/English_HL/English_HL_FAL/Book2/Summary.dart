@@ -48,7 +48,7 @@ class Summary extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Summary - Animal Farm",
+                  new Text("Summary - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -68,7 +68,7 @@ class Summary extends StatelessWidget {
                  new CachedNetworkImage(   
                       width: MediaQuery.of(context).size.width,
                       alignment: Alignment.center,
-                      imageUrl: "https://matriclive.com/new_feature/illustrations/animal_farm_image.png",
+                      imageUrl: "https://matriclive.com/new_feature/illustrations/the_crucible.png",
                       placeholder: (context, url) =>
                       new Image.asset("assets/ui_assets/preloader3.gif",
                         width: 180,
