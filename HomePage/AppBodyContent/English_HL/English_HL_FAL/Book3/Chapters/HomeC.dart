@@ -47,7 +47,7 @@ class ChapterList extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - The Great Gastsby",
+                  new Text("The Great Gatsby",
                       maxLines: 1,
                       softWrap: false,
                       overflow: TextOverflow.ellipsis,

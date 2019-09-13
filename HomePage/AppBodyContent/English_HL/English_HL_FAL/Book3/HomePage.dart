@@ -49,7 +49,7 @@ class GreatGastsby extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - The Great Gastsby",
+                  new Text("The Great Gatsby",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
