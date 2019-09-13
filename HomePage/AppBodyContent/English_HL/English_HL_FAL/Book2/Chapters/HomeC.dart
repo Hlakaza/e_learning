@@ -47,7 +47,7 @@ class ChapterList extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Home Langauge - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],

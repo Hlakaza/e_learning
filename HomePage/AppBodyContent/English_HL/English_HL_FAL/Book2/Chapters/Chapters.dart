@@ -47,7 +47,7 @@ class Chapter1 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Home Langauge - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -136,7 +136,7 @@ class Chapter2 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Home Langauge - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -213,7 +213,7 @@ class Chapter3 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Home Langauge - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -288,7 +288,7 @@ class Chapter4 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Home Langauge - The Crucible",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],

@@ -75,7 +75,7 @@ class TheCrucible extends StatelessWidget {
                         height: double.infinity,
                         width: double.infinity,
                         alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[0],
+                        imageUrl: TopicButtonArray().Imageurls[1],
                         placeholder: (context, url) =>
                         new Image.asset("assets/ui_assets/preloader3.gif",
                           width: 90,
