@@ -3,9 +3,9 @@ import '../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
-import '../Chapters/HomeC.dart';
-import '../Summary.dart';
-import '../Characters.dart';
+import 'Chapters/HomeC.dart';
+import 'Summary.dart';
+import 'Characters.dart';
 
 class AnimalFarm extends StatelessWidget {
   @override
