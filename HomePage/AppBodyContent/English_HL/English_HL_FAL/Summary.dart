@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../ClassArrays/TopicButtonArray.dart';
+import '../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -65,7 +65,7 @@ class Summary extends StatelessWidget {
               child: new ListView(
                 children: <Widget>[
 
-                  child: new CachedNetworkImage(   
+                 new CachedNetworkImage(   
                       width: MediaQuery.of(context).size.width,
                       alignment: Alignment.center,
                       imageUrl: "https://matriclive.com/new_feature/illustrations/animal_farm_image.png",
