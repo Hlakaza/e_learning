@@ -157,6 +157,8 @@ class _CarouselState extends State<Carousel> {
             switch (index) {
             case 0 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: AnimalFarm()));
             break;
+            case 1 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: TheCrucible()));
+            break;
               default :
                 print("You pressed $index page");
             }
