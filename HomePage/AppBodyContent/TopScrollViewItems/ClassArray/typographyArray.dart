@@ -1,9 +1,9 @@
 import "package:flutter/material.dart";
 
 class titleBold extends StatelessWidget {
+  titleBold(this.titleText);
 
   var titleText;
-  titleBold(this.titleText);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,6 @@ class titleBold extends StatelessWidget {
       ),
     );
   }
-
 }
 
 class spaceBetween extends StatelessWidget {
@@ -31,9 +30,9 @@ class spaceBetween extends StatelessWidget {
 }
 
 class simpleText extends StatelessWidget {
+  simpleText(this.message);
 
   var message;
-  simpleText(this.message);
 
   @override
   Widget build(BuildContext context) {
@@ -46,5 +45,26 @@ class simpleText extends StatelessWidget {
       ),
     );
   }
+}
 
+class Quote extends StatelessWidget {
+  Quote(this.message);
+
+  var message;
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Padding(
+      child : Text(message,
+      style: TextStyle(
+        color: Colors.black54,
+                fontSize: 12.0,
+                fontFamily: "Quicksand",
+                fontWeight: FontWeight.bold,
+                textAlign: TextAlign.center,
+      ),
+    ),
+  );
+  }
 }
