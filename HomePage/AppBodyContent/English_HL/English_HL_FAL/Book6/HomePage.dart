@@ -7,7 +7,7 @@ import 'Chapters/HomeC.dart';
 import 'Summary.dart';
 import 'Characters.dart';
 
-class PridePrejudice extends StatelessWidget {
+class LifeOfPi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -49,7 +49,7 @@ class PridePrejudice extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Pride and Prejudice",
+                  new Text("Life of Pi",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -75,7 +75,7 @@ class PridePrejudice extends StatelessWidget {
                         height: double.infinity,
                         width: double.infinity,
                         alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[4],
+                        imageUrl: TopicButtonArray().Imageurls[5],
                         placeholder: (context, url) =>
                         new Image.asset("assets/ui_assets/preloader3.gif",
                           width: 90,

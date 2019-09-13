@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import '../../ClassArrays/TopicButtonArray.dart';
+import '../../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
-import 'Chapters/HomeC.dart';
-import 'Summary.dart';
-import 'Characters.dart';
+import  'Chapters.dart';
 
-class PridePrejudice extends StatelessWidget {
+class ChapterList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -66,48 +64,65 @@ class PridePrejudice extends StatelessWidget {
               child: new ListView(
                 children: <Widget>[
 
-                  new Container(
-                    //color: Colors.black,
-                    width: MediaQuery.of(context).size.width,
-                    height: 170.0,
-                    child: new Center(
-                      child: new CachedNetworkImage(
-                        height: double.infinity,
-                        width: double.infinity,
-                        alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[4],
-                        placeholder: (context, url) =>
-                        new Image.asset("assets/ui_assets/preloader3.gif",
-                          width: 90,
-                          height: 60,
-                        ),
-                        errorWidget: (context, url, error) =>
-                        new Image.asset("assets/ui_assets/default_error.png",
-                          width: 60,
-                          height: 60,
-                        ),
-                      ),
-                    ),
-                  ),
-
-                  SizedBox(height: 20.0,),
-
                   new EnglishButton(
-                    title: "Chapters",
-                    route: ChapterList(),
+                    title: "Chapters 1–15",
+                    route: Chapter1(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Summary",
-                    route: Summary(),
-                  ),
-                  SizedBox(height: 15.0,),
-                  new EnglishButton(
-                    title: "Characters",
-                    route: Characters(),
+                    title: "Chapters 16–32",
+                    route: Chapter2(),
                   ),
 
-                 ],
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 33–42",
+                    route: Chapter3(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 43–49",
+                    route: Chapter4(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 50–89",
+                    route: Chapter5(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 90–91",
+                    route: Chapter6(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 92: The Island",
+                    route: Chapter7(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapter 93 - 94",
+                    route: Chapter8(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 95 – 99",
+                    route: Chapter9(),
+                  ),
+
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Chapters 100",
+                    route: Chapter10(),
+                  ),
+
+                ],
               ),
             ),
           ),
