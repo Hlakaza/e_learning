@@ -24,7 +24,7 @@ class drawer extends StatelessWidget
           width: MediaQuery.of(context).size.width,
           height: 60.0,
           child : new Row(
-            mainAxisAlignment: const MainAxisAlignment.spaceBetween,
+            //mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
 
             ],
