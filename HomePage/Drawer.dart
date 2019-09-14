@@ -44,7 +44,7 @@ class drawer extends StatelessWidget
               ),
 
               new Flexible(
-                flex: 2,
+                flex: 1,
                 fit: FlexFit.tight,
                 child: new Container(
                   color: Colors.black,
