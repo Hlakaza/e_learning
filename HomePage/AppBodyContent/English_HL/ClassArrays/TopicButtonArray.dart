@@ -15,7 +15,7 @@ import '../Topics/Topic9.dart';
 import '../Topics/Topic10.dart';
 
 //Stories
-import '../English_HL_FAL/HomeL.dart';
+import '../English_HL/HomeL.dart';
 
 //PastPaper Route
 import '../Pastpapers/HPPastPaper.dart';
@@ -72,6 +72,14 @@ class TopicButtonArray {
     'http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625587534/the-picture-of-dorian-gray-9781625587534_hr.jpg',
     'https://i.pinimg.com/originals/01/bd/c2/01bdc285d890b422504f10604b619fea.jpg'
   ];
+
+  var Imageurls2 = [
+    'https://wcedeportal.co.za/sites/eresources/files/9780636201439.png',
+    'https://s3.amazonaws.com/netgalley-covers/cover104700-medium.png',
+    'https://images-na.ssl-images-amazon.com/images/I/61NKb1RLCTL.jpg',
+    'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425562710l/415937.jpg',
+  ];
+
 
   var subjectName = [
     'ENGLISH', //Big Subject Name

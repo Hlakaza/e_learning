@@ -13,7 +13,9 @@ class WelcomeContainer extends StatelessWidget
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Container(
-      child: new Padding(
+      child: new Row(
+        children: <Widget> [   
+          new Padding(
         padding: const EdgeInsets.all(20.0),
         child: new Text("Welcome\n To School Live",
           textAlign: TextAlign.start,
@@ -24,6 +26,25 @@ class WelcomeContainer extends StatelessWidget
             foreground: Paint()..shader = linearGradient,
           ),
         ),
+      ),
+
+      new CachedNetworkImage(   
+                      width: MediaQuery.of(context).size.width,
+                      alignment: Alignment.center,
+                      imageUrl: "https://matriclive.com/new_feature/illustrations/education.gif",
+                      placeholder: (context, url) =>
+                      new Image.asset("assets/ui_assets/preloader3.gif",
+                        width: 180,
+                        height: 120,
+                      ),
+                      errorWidget: (context, url, error) =>
+                      new Image.asset("assets/ui_assets/default_error.png",
+                        width: 60,
+                        height: 60,
+                      ),
+                    ),
+
+        ],
       ),
     );
   }

@@ -165,7 +165,7 @@ class _Topic1R1State extends State<Topic1R1> {
                       ),
                     ),
 
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 20.0),
 
                     
                     new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
@@ -176,7 +176,17 @@ class _Topic1R1State extends State<Topic1R1> {
                       ),
                     ),
 
-                    SizedBox(height: 30.0),
+                    SizedBox(height: 20.0),
+
+                    new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
+                      textAlign: TextAlign.center,
+                      style: new TextStyle(
+                        fontSize: _Fontsize,
+                        color: defaultTextColor,
+                      ),
+                    ),
+
+                    SizedBox(height: 20.0),
 
                     new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
                       textAlign: TextAlign.center,
@@ -187,14 +197,6 @@ class _Topic1R1State extends State<Topic1R1> {
                     ),
 
                     SizedBox(height: 30.0),
-
-                    new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
-                      textAlign: TextAlign.center,
-                      style: new TextStyle(
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-                      ),
-                    ),
 
                    
                   ],
