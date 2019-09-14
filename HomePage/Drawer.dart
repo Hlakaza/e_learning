@@ -20,10 +20,12 @@ class drawer extends StatelessWidget
       ),
       ListTile(
         title: new Container(
+          padding: new EdgeInsets.all(10.0),
           width: MediaQuery.of(context).size.width,
           height: 60.0,
-          child : new Text("fdfdfdfdfd"),
+          child : 
           decoration: BoxDecoration(
+            borderRadius: new BorderRadius.all(Radius.circular(50.0)),
             gradient: new LinearGradient(
                 colors: [Color(0xffee2803), Color(0xffff5722)],
                 begin: Alignment.topRight,
