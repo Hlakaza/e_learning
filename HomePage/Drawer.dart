@@ -44,16 +44,17 @@ class drawer extends StatelessWidget
               ),
 
               new Flexible(
-                flex: 1,
+                flex: 4,
                 fit: FlexFit.tight,
                 child: new Container(
-                  color: Colors.black,
+                  margin: EdgeInsets.only(left: 10.0),
                   child: new Text("e-Assessment",
-                  textAlign: TextAlign.center,
+                  //textAlign: TextAlign.center,
                             style: new TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 14.0,
+                              fontSize: 16.0,
                               color: Colors.white,
+                              fontFamily: "NunitoSans-Regular",
                         ),
                     ),
                 ),
