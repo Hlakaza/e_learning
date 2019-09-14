@@ -45,14 +45,17 @@ class drawer extends StatelessWidget
 
               new Flexible(
                 flex: 2,
-                child: new Text("e-Assessment",
+                child: new Container(
+                  color: Colors.black,
+                  child: new Text("e-Assessment",
                   textAlign: TextAlign.center,
                             style: new TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 14.0,
                               color: Colors.white,
-                            ),
-              ),
+                        ),
+                    ),
+                ),
             ),
 
 
