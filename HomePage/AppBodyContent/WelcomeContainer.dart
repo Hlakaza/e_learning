@@ -31,7 +31,8 @@ class WelcomeContainer extends StatelessWidget
         ),
       ),
 
-      new CachedNetworkImage(   
+      Expanded(
+        child: new CachedNetworkImage(   
                       width: 180.0,
                       height: 180.0,
                       alignment: Alignment.center,
@@ -47,6 +48,9 @@ class WelcomeContainer extends StatelessWidget
                         height: 60,
                       ),
                     ),
+      ),
+
+      
 
         ],
       ),
