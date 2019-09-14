@@ -23,7 +23,12 @@ class drawer extends StatelessWidget
           padding: new EdgeInsets.all(10.0),
           width: MediaQuery.of(context).size.width,
           height: 60.0,
-          child : new Text(""),
+          child : new Row(
+            mainAxisAlignment: const MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+
+            ],
+          ),
           decoration: BoxDecoration(
             borderRadius: new BorderRadius.all(Radius.circular(50.0)),
             gradient: new LinearGradient(
@@ -32,6 +37,13 @@ class drawer extends StatelessWidget
                 end: Alignment.bottomLeft,
                 stops: [0.0, 1.0],
                 tileMode: TileMode.clamp),/**/
+                boxShadow: [
+                          BoxShadow(
+                            color: Color.fromRGBO(255, 87, 34, 0.32),
+                            offset: Offset(3.0,  5.0),
+                            blurRadius: 20.0,
+                          ),
+                        ],
           ),
         ),
         onTap: () {
