@@ -39,7 +39,7 @@ class drawer extends StatelessWidget
                 tileMode: TileMode.clamp),/**/
                 boxShadow: [
                           BoxShadow(
-                            color: Color.fromRGBO(255, 87, 34, 0.32),
+                            color: Color.fromRGBO(255, 87, 34, 0.49),
                             offset: Offset(3.0,  5.0),
                             blurRadius: 20.0,
                           ),
