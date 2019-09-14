@@ -17,6 +17,7 @@ class WelcomeContainer extends StatelessWidget
       width: MediaQuery.of(context).size.width,
       child: new Row(
        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       crossAxisAlignment: CrossAxisAlignment.spaceEvenly,
         children: <Widget> [   
           new Padding(
         padding: const EdgeInsets.all(20.0),
