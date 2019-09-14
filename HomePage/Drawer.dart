@@ -23,7 +23,7 @@ class drawer extends StatelessWidget
           padding: new EdgeInsets.all(10.0),
           width: MediaQuery.of(context).size.width,
           height: 60.0,
-          child : 
+          child : new Text(""),
           decoration: BoxDecoration(
             borderRadius: new BorderRadius.all(Radius.circular(50.0)),
             gradient: new LinearGradient(
