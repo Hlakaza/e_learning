@@ -52,9 +52,9 @@ class drawer extends StatelessWidget
                   //textAlign: TextAlign.center,
                             style: new TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 16.0,
+                              fontSize: 14.0,
                               color: Colors.white,
-                              fontFamily: "NunitoSans-Regular",
+                              fontFamily: "Comfortaa",
                         ),
                     ),
                 ),
