@@ -1,6 +1,7 @@
-import 'Package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 import 'AppBody.dart'; //importing the body content of the app
+import 'Drawer.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
         borderRadius: BorderRadius.only(
             topLeft: Radius.circular(25.0), topRight: Radius.circular(25.0)),
         child: new Scaffold(
-          drawer: Drawer(),
+          drawer: drawer(),
           backgroundColor: Colors.white,
           appBar: new AppBar(
             leading: Builder(
