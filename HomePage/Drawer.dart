@@ -26,10 +26,8 @@ class drawer extends StatelessWidget
           decoration: BoxDecoration(
             gradient: new LinearGradient(
                 colors: [Color(0xffff8225), Color(0xfff15b14)],
-                begin: const FractionalOffset(0.5, 0.0),
-                end: const FractionalOffset(0.0, 0.5),
-                stops: [0.0, 1.0],
-                tileMode: TileMode.clamp),/**/
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,/**/
           ),
         ),
         onTap: () {
