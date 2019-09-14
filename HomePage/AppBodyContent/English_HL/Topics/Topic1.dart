@@ -155,9 +155,8 @@ class _Topic1R1State extends State<Topic1R1> {
 
                    
                     new Text("The Zulu Girl by Roy Campbell:",
-
-                      style: new TextStyle(
-                        textAlign: TextAlign.center,
+                      textAlign: TextAlign.center,
+                      style: new TextStyle(     
                         fontWeight: FontWeight.bold,
                         fontSize: 17.0,
                         fontFamily: "NunitoSans-Regular",
