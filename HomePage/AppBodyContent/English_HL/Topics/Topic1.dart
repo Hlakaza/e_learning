@@ -153,187 +153,45 @@ class _Topic1R1State extends State<Topic1R1> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
 
-                    CachedNetworkImage(imageUrl: "http://matriclive.com/image/LS/img1",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
-
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('Location of DNA in the cell',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('Nucleic acid: an organic compound that contains the elements carbon, hydrogen, oxygen, nitrogen and phosphorus',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('There are two types of Nucleic acids:',
+                   
+                    new Text("The Zulu Girl by Roy Campbell:",
 
                       style: new TextStyle(
 
                         fontWeight: FontWeight.bold,
                         fontSize: 17.0,
+                        fontFamily: "NunitoSans-Regular",
                         color: defaultTextColor,
 
                       ),
                     ),
 
-                    new Text('- Deoxyribonucleic acid (DNA) \n - Ribonucleic acid (RNA). ',
-
+                    
+                    new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
+                      textAlign: TextAlign.center,
                       style: new TextStyle(
-
                         fontSize: _Fontsize,
                         color: defaultTextColor,
-
                       ),
                     ),
 
-                    new Text('\nThese two nucleic acids are made of building blocks (or monomers) called nucleotides. DNA is found in the form of chromosomes in the nucleus.\nChromosomes carry the hereditary information in the form of genes.\nDNA is also found inside the mitochondria and chloroplasts of eukaryotic cells.\nDNA that is found outside the nucleus is known as extranuclear DNA. ',
-
+                    new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
+                      textAlign: TextAlign.center,
                       style: new TextStyle(
-
                         fontSize: _Fontsize,
                         color: defaultTextColor,
-
                       ),
                     ),
 
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('The structure of DNA',
-
+                    new Text("When in the sun the hot red acres smoulder,\nDown where the sweating gang its labours plies,\nA girl flings down her how, and from her shoulder\nUnslings her child tormented by the flies.",
+                      textAlign: TextAlign.center,
                       style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('\nDNA is a double-stranded polynucleotide also called a double helix. . A polynucleotide chain is a very long molecule made up of a string of repeating, similar units called nucleotides',
-
-                      style: new TextStyle(
-
                         fontSize: _Fontsize,
                         color: defaultTextColor,
-
                       ),
                     ),
 
-                    CachedNetworkImage(imageUrl: "http://matriclive.com/image/LS/img2",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('DNA nucleotide consists of three parts:',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('-a deoxyribose sugar molecule\n-a phosphate group\n-a nitrogen-containing base.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    CachedNetworkImage(imageUrl: "http://matriclive.com/image/LS/img3",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('There are four possible bases that can form part of a DNA nucleotide:',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('-adenine (A)\n-thymine (T)\n-guanine (G)\n-cytosine (C).',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('These bases are grouped into two types, namely purines and pyrimidines.',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('Purines are larger molecules because they consist of a double ring.\nPyrimidines are smaller molecules because they consist of a single ring.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('-Adenine and guanine are purine bases\n-Thymine and cytosine are pyrimidine bases',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('Each DNA molecule consists of two polynucleotide chains (two parallel strands of nucleotides) that lie with the bases on each strand or chain facing each other.\nHydrogen bonds hold these two chains together to form a ladder-like structure.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    CachedNetworkImage(imageUrl: "http://matriclive.com/image/LS/img4",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
+                   
                   ],
                 ),
               ),
