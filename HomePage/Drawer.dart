@@ -25,7 +25,7 @@ class drawer extends StatelessWidget
           child : new Text("fdfdfdfdfd"),
           decoration: BoxDecoration(
             gradient: new LinearGradient(
-                colors: [Color(0xffff8225), Color(0xfff15b14)],
+                colors: [Color(0xffee2803), Color(0xffff5722)],
                 end: Alignment.topRight,
                 begin: Alignment.bottomLeft,
                 stops: [0.0, 1.0],
