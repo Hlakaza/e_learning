@@ -28,11 +28,26 @@ class drawer extends StatelessWidget
             children: <Widget>[
 
               new Container(
-                height: 30.0,
-                width: 30.0,
+                height: 40.0,
+                width: 40.0,
                 decoration: BoxDecoration(
                   borderRadius: new BorderRadius.all(Radius.circular(50.0)),
                   color: Colors.white,
+                ),
+              ),
+
+              new Container(
+                width: MediaQuery.of(context).size.width,
+                height: 40.0,
+                child: Center(
+                  child: Text("e-Assessment",
+                  textAlign: TextAlign.center,
+                            style: new TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 14.0,
+                              color: Colors.white,
+                            ),
+                  ),
                 ),
               ),
 
