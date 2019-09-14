@@ -45,6 +45,7 @@ class drawer extends StatelessWidget
 
               new Flexible(
                 flex: 2,
+                fit: FlexFit.tight,
                 child: new Container(
                   color: Colors.black,
                   child: new Text("e-Assessment",
