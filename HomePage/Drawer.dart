@@ -19,7 +19,11 @@ class drawer extends StatelessWidget
         ),
       ),
       ListTile(
-        title: Text('Item 1'),
+        title: new Container(
+          width: MediaQuery.of(context).size.width,
+          height: 60.0,
+          child : new Text("fdfdfdfdfd"),
+        ),
         onTap: () {
           // Update the state of the app.
           // ...
