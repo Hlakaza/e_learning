@@ -32,7 +32,7 @@ class drawer extends StatelessWidget
                 width: 30.0,
                 decoration: BoxDecoration(
                   borderRadius: new BorderRadius.all(Radius.circular(50.0)),
-                  Color: Colors.white,
+                  color: Colors.white,
                 ),
               ),
 
