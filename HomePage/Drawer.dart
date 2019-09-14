@@ -24,8 +24,17 @@ class drawer extends StatelessWidget
           width: MediaQuery.of(context).size.width,
           height: 60.0,
           child : new Row(
-            //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
+
+              new Container(
+                height: 30.0,
+                width: 30.0,
+                decoration: BoxDecoration(
+                  borderRadius: new BorderRadius.all(Radius.circular(50.0)),
+                  Color: Colors.white,
+                ),
+              ),
 
             ],
           ),
