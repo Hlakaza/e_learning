@@ -24,35 +24,37 @@ class drawer extends StatelessWidget
           width: MediaQuery.of(context).size.width,
           height: 60.0,
           child : new Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+           // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
 
-              new Container(
-                height: MediaQuery.of(context).size.width / 2.5, 
+              
+
+              new Flexible(
+                flex: 1,
+                child: new Container(
+                height: 40.0, 
                 width: 40.0,
                 decoration: BoxDecoration(
                   borderRadius: new BorderRadius.all(Radius.circular(50.0)),
                   color: Colors.white,
                 ),
+                ),
               ),
 
-              new Container(
-                color: Colors.blue,
-                //width: MediaQuery.of(context).size.width / 1.8,
-                height: 40.0,
-                child: Center(
-                  child: Text("e-Assessment",
+              new Flexible(
+                flex: 2,
+                child: new Text("e-Assessment",
                   textAlign: TextAlign.center,
                             style: new TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 14.0,
                               color: Colors.white,
                             ),
-                  ),
-                ),
-              ),/**/
+              ),
+            ),
+
 
             ],
           ),
