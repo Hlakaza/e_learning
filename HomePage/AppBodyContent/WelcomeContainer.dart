@@ -14,7 +14,7 @@ class WelcomeContainer extends StatelessWidget
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Container(
-      child: new Row(
+      child: new Column(
         children: <Widget> [   
           new Padding(
         padding: const EdgeInsets.all(20.0),
@@ -30,7 +30,8 @@ class WelcomeContainer extends StatelessWidget
       ),
 
       new CachedNetworkImage(   
-                      width: MediaQuery.of(context).size.width,
+                      width: 60.0,
+                      height: 60.0
                       alignment: Alignment.center,
                       imageUrl: "https://matriclive.com/new_feature/illustrations/education.gif",
                       placeholder: (context, url) =>
