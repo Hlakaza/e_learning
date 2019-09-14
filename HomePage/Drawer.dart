@@ -37,7 +37,6 @@ class drawer extends StatelessWidget
               ),
 
               new Container(
-                width: MediaQuery.of(context).size.width,
                 height: 40.0,
                 child: Center(
                   child: Text("e-Assessment",
