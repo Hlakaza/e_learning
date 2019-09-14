@@ -287,7 +287,7 @@ class TopicButton extends StatelessWidget
           break;
           case "1" : topic_route = Topic2R1(); //HomePage_TOUR();
           break;
-          case "2" : topic_route = Topic3R1(); //HomePage_TOUR();
+          case "2" : topic_route = Topic1R1(); //HomePage_TOUR();
           break;
           case "3" : topic_route = Topic4R1(); //HomePage_TOUR();
           break;
