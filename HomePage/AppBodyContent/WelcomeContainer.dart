@@ -33,7 +33,7 @@ class WelcomeContainer extends StatelessWidget
 
       new CachedNetworkImage(   
                       width: 100.0,
-                      height: 100.0
+                      height: 100.0,
                       alignment: Alignment.center,
                       imageUrl: "https://matriclive.com/new_feature/illustrations/education.gif",
                       placeholder: (context, url) =>
