@@ -12,6 +12,7 @@ import 'Book4/HomePage.dart';
 import 'Book5/HomePage.dart';
 import 'Book6/HomePage.dart';
 import 'Book7/HomePage.dart';
+import 'Book8/HomePage.dart';
 
 class HomeLanguage extends StatelessWidget
 {
@@ -173,6 +174,8 @@ class _CarouselState extends State<Carousel> {
             case 5 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: LifeOfPi()));
             break;
             case 6 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ThePictureofDoriah()));
+            break;
+            case 7 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Hamlet()));
             break;
               default :
                 print("You pressed $index page");
