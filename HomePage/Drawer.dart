@@ -24,7 +24,7 @@ class drawer extends StatelessWidget
           width: MediaQuery.of(context).size.width,
           height: 60.0,
           child : new Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
 
               new Container(
@@ -38,6 +38,7 @@ class drawer extends StatelessWidget
 
               new Container(
                 color: Colors.blue,
+                width: MediaQuery.of(context).size.width,
                 height: 40.0,
                 child: Center(
                   child: Text("e-Assessment",
