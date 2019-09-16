@@ -988,107 +988,113 @@ class SubjectButtons extends StatelessWidget
                     ),
                   ),
                   
-                  Stack(
-                    children: <Widget>[
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(context, PageTransition(
+                          type: PageTransitionType.fade, child: HomepagePP()));
+                    },
+                    child: Stack(
+                      children: <Widget>[
 
-                      Container(
-                        margin: new EdgeInsets.only(left:15.0),
-                        width: 120.0,
-                        height: 120.0,
-                        decoration: new BoxDecoration(
-                          //border: new Border.all(color: Colors.black38),
-                          borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-                          gradient: new LinearGradient(
-                              colors: [Colors.blueAccent, Colors.blue],
-                              begin: const FractionalOffset(0.5, 0.0),
-                              end: const FractionalOffset(0.0, 0.5),
-                              stops: [0.0, 1.0],
-                              tileMode: TileMode.clamp),
-                          color: Colors.white,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black12,
-                              offset: Offset(0.0,  13.0, ),
-                              blurRadius: 5.0,
-                            ),
-                          ],
-                        ),
-                        child: new Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: <Widget>[
-                             Image.asset("assets/subject_icons/business_studies.png",
-                                width: 40.0,
-                                height: 40.0,
+                        Container(
+                          margin: new EdgeInsets.only(left:15.0),
+                          width: 120.0,
+                          height: 120.0,
+                          decoration: new BoxDecoration(
+                            //border: new Border.all(color: Colors.black38),
+                            borderRadius: new BorderRadius.all(Radius.circular(10.0)),
+                            gradient: new LinearGradient(
+                                colors: [Colors.blueAccent, Colors.blue],
+                                begin: const FractionalOffset(0.5, 0.0),
+                                end: const FractionalOffset(0.0, 0.5),
+                                stops: [0.0, 1.0],
+                                tileMode: TileMode.clamp),
+                            color: Colors.white,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black12,
+                                offset: Offset(0.0,  13.0, ),
+                                blurRadius: 5.0,
                               ),
-                          ],
+                            ],
+                          ),
+                          child: new Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: <Widget>[
+                               Image.asset("assets/subject_icons/business_studies.png",
+                                  width: 40.0,
+                                  height: 40.0,
+                                ),
+                            ],
+                          ),
                         ),
-                      ),
 
-                      Container(
-                        margin: new EdgeInsets.only(top:105.0, left: 15.0),
-                        width: 120,
-                        height: 30.0,
-                        //color: Colors.red,
-                        child: new Padding(
-                          padding: EdgeInsets.all(3.0),
-                          child: new Center(
-                            child : new Text("Business studies",
-                              maxLines: 1,
-                              softWrap: false,
-                              overflow: TextOverflow.fade,
-                              textAlign: TextAlign.center,
-                              style: new TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontFamily: "Raleway",
-                                fontSize: 12.0,
-                                color: Colors.black,
+                        Container(
+                          margin: new EdgeInsets.only(top:105.0, left: 15.0),
+                          width: 120,
+                          height: 30.0,
+                          //color: Colors.red,
+                          child: new Padding(
+                            padding: EdgeInsets.all(3.0),
+                            child: new Center(
+                              child : new Text("Business studies",
+                                maxLines: 1,
+                                softWrap: false,
+                                overflow: TextOverflow.fade,
+                                textAlign: TextAlign.center,
+                                style: new TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: "Raleway",
+                                  fontSize: 12.0,
+                                  color: Colors.black,
+                                ),
                               ),
                             ),
                           ),
+                          decoration: BoxDecoration(
+                            borderRadius: new BorderRadius.only(bottomRight: Radius.circular(10.0),bottomLeft:Radius.circular(10.0)),
+                            gradient: new LinearGradient(
+                                colors: [Color(0xffffffff), Color(0xffffffff)],
+                                begin: const FractionalOffset(0.5, 0.0),
+                                end: const FractionalOffset(0.0, 0.5),
+                                stops: [0.0, 1.0],
+                                tileMode: TileMode.clamp),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black12,
+                                offset: Offset(3.0,  5.0),
+                                blurRadius: 20.0,
+                              ),
+                            ],
+                          ),
                         ),
-                        decoration: BoxDecoration(
-                          borderRadius: new BorderRadius.only(bottomRight: Radius.circular(10.0),bottomLeft:Radius.circular(10.0)),
-                          gradient: new LinearGradient(
-                              colors: [Color(0xffffffff), Color(0xffffffff)],
-                              begin: const FractionalOffset(0.5, 0.0),
-                              end: const FractionalOffset(0.0, 0.5),
-                              stops: [0.0, 1.0],
-                              tileMode: TileMode.clamp),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black12,
-                              offset: Offset(3.0,  5.0),
-                              blurRadius: 20.0,
-                            ),
-                          ],
+                        Container(
+                          margin: new EdgeInsets.only(left:15.0),
+                          width: 30.0,
+                          height: 40.0,
+                          decoration: new BoxDecoration(
+                            //border: new Border.all(color: Colors.black),
+                            //borderRadius: new BorderRadius.all(Radius.circular(10.0)),
+                            color: Colors.white,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.3),
+                                offset: Offset(5.0,  13.0, ),
+                                blurRadius: 10.0,
+                              ),
+                            ],
+                            image: DecorationImage(
+                                alignment: Alignment(-.2, 0),
+                                image: AssetImage(
+                                  'assets/ui_assets/past_paper.jpg',),
+                                fit: BoxFit.fill),
+                          ),
                         ),
-                      ),
-                      Container(
-                        margin: new EdgeInsets.only(left:15.0),
-                        width: 30.0,
-                        height: 40.0,
-                        decoration: new BoxDecoration(
-                          //border: new Border.all(color: Colors.black),
-                          //borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-                          color: Colors.white,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.3),
-                              offset: Offset(5.0,  13.0, ),
-                              blurRadius: 10.0,
-                            ),
-                          ],
-                          image: DecorationImage(
-                              alignment: Alignment(-.2, 0),
-                              image: AssetImage(
-                                'assets/ui_assets/past_paper.jpg',),
-                              fit: BoxFit.fill),
-                        ),
-                      ),
 
 
-                    ],
+                      ],
 
+                    ),
                   ),
 
                   InkWell(
