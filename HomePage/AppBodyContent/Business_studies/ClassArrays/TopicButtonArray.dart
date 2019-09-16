@@ -12,7 +12,7 @@ class TopicButtonArray {
 
     Colors.yellow.shade900, //AppBar Theme Color
     Colors.blueAccent, Colors.blue, //Title And Video Gradient Color
-    Colors.orange.shade900, // Horizontal Extra Buttons Title Color
+    Colors.blue, // Horizontal Extra Buttons Title Color
     Colors.blueAccent,// Background Color
     Colors.blue,
 
@@ -262,7 +262,7 @@ class PastPaperButton extends StatelessWidget
     // TODO: implement build
     return new InkWell(
       onTap : () {
-        Navigator.push(context, PageTransition(type: PageTransitionType.downToUp, child: HomepagePP()));
+        Navigator.push(context, PageTransition(type: PageTransitionType.downToUp, child: HomepageBS()));
       },
       child: new Stack(
         children: <Widget>[
