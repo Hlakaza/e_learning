@@ -986,13 +986,7 @@ class SubjectButtons extends StatelessWidget
                     ),
                   ),
                   
-                  
-
-                  InkWell(
-                    onTap() : {
-                      Navigator.push(context,MaterialPageRoute(builder: (context) => HomepagePP()),);
-                    },
-                    child: Stack(
+                  Stack(
                     children: <Widget>[
 
                       Container(
@@ -1094,6 +1088,9 @@ class SubjectButtons extends StatelessWidget
                     ],
 
                   ),
+
+                  InkWell(
+                    child: 
                   ),
 
                   Stack(
