@@ -262,7 +262,7 @@ class PastPaperButton extends StatelessWidget
     // TODO: implement build
     return new InkWell(
       onTap : () {
-        Navigator.push(context, PageTransition(type: PageTransitionType.downToUp, child: HomepageBS()));
+        Navigator.push(context, PageTransition(type: PageTransitionType.downToUp, child: HomepageAC()));
       },
       child: new Stack(
         children: <Widget>[
