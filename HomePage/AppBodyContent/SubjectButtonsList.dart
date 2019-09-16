@@ -991,7 +991,7 @@ class SubjectButtons extends StatelessWidget
                   InkWell(
                     onTap: () {
                       Navigator.push(context, PageTransition(
-                          type: PageTransitionType.fade, child: HomepagePP()));
+                          type: PageTransitionType.fade, child: HomepageBS()));
                     },
                     child: Stack(
                       children: <Widget>[
@@ -1100,7 +1100,7 @@ class SubjectButtons extends StatelessWidget
                   InkWell(
                     onTap: () {
                       Navigator.push(context, PageTransition(
-                          type: PageTransitionType.fade, child: HomepagePP()));
+                          type: PageTransitionType.fade, child: HomepageBS()));
                     },
                     child: Stack(
                       children: <Widget>[
