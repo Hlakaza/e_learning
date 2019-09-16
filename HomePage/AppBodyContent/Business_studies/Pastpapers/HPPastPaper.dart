@@ -98,7 +98,7 @@ class _CarouselState extends State<Carousel> {
                   Container(
                     //margin: EdgeInsets.only(right: 5.0),
                     child: Image.asset(
-                      "assets/subject_icons/physical_science.png",
+                      "assets/subject_icons/business_studies.png",
                       width: 30.0,
                       height: 30.0,
                     ),
