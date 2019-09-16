@@ -5,23 +5,15 @@ import 'package:page_transition/page_transition.dart';
 
 ///PP2018
 import 'Papers/P1_2018May.dart';
-import 'Papers/P2_2018May.dart';
 import 'Papers/P1_2018Feb.dart';
-import 'Papers/P2_2018Feb.dart';
 //PP2017
 import 'Papers/P1_2017Feb.dart';
-import 'Papers/P2_2017Feb.dart';
 import 'Papers/P1_2017May.dart';
-import 'Papers/P2_2017May.dart';
 import 'Papers/P1_2017Nov.dart';
-import 'Papers/P2_2017Nov.dart';
 //PP2016
 import 'Papers/P1_2016Feb.dart';
-import 'Papers/P2_2016Feb.dart';
 import 'Papers/P1_2016May.dart';
-import 'Papers/P2_2016May.dart';
 import 'Papers/P1_2016Nov.dart';
-import 'Papers/P2_2016Nov.dart';
 
 class HomepageBS extends StatelessWidget
 {
@@ -96,7 +88,7 @@ class _CarouselState extends State<Carousel> {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Past Paper - Physical Science",
+                  new Text("Past Paper - Business Studies",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.white,
@@ -141,52 +133,28 @@ class _CarouselState extends State<Carousel> {
 
     switch (index) {
       case 0 :
-        paperName = "2018 Physical Science \nPaper 1 May/June";
+        paperName = "2018 Business Studies \nPaper 1 May/June";
         break;
       case 1 :
-        paperName = "2018 Physical Science \nPaper 2 May/June";
+        paperName = "2018 Business Studies \nPaper 1 Feb/March";
         break;
       case 2 :
-        paperName = "2018 Physical Science \nPaper 1 Feb/March";
+        paperName = "2017 Business Studies \nPaper 1 Feb/March";
         break;
       case 3 :
-        paperName = "2018 Physical Science \nPaper 2 Feb/March";
+        paperName = "2017 Business Studies \nPaper 1 May/June";
         break;
       case 4 :
-        paperName = "2017 Physical Science \nPaper 1 Feb/March";
+        paperName = "2017 Business Studies \nPaper 1 Oct/Nov";
         break;
       case 5 :
-        paperName = "2017 Physical Science \nPaper 2 Feb/March";
+        paperName = "2016 Business Studies \nPaper 1 Oct/Nov";
         break;
       case 6 :
-        paperName = "2017 Physical Science \nPaper 1 May/June";
+        paperName = "2016 Business Studies \nPaper 1 May/June";
         break;
       case 7 :
-        paperName = "2017 Physical Science \nPaper 2 May/June";
-        break;
-      case 8 :
-        paperName = "2017 Physical Science \nPaper 1 Oct/Nov";
-        break;
-      case 9 :
-        paperName = "2017 Physical Science \nPaper 2 Oct/Nov";
-        break;
-      case 10 :
-        paperName = "2016 Physical Science \nPaper 1 Oct/Nov";
-        break;
-      case 11 :
-        paperName = "2016 Physical Science \nPaper 2 Oct/Nov";
-        break;
-      case 12 :
-        paperName = "2016 Physical Science \nPaper 1 May/June";
-        break;
-      case 13 :
-        paperName = "2016 Physical Science \nPaper 2 May/June";
-        break;
-      case 14 :
-        paperName = "2016 Physical Science \nPaper 1 Feb/March";
-        break;
-      case 15 :
-        paperName = "2016 Physical Science \nPaper 2 Feb/March";
+        paperName = "2016 Business Studies \nPaper 1 Feb/March";
         break;
     }
 
@@ -220,67 +188,31 @@ class _CarouselState extends State<Carousel> {
               break;
             case 1 :
               Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2018May()));
+                  type: PageTransitionType.fade, child: P1_2018Feb()));
               break;
             case 2 :
               Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P1_2018Feb()));
+                  type: PageTransitionType.fade, child: P1_2017Feb()));
               break;
             case 3 :
               Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2018Feb()));
-              break;
-
-          //2017 Papers
-            case 4 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P1_2017Feb()));
-              break;
-            case 5 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2017Feb()));
-              break;
-            case 6 :
-              Navigator.push(context, PageTransition(
                   type: PageTransitionType.fade, child: P1_2017May()));
               break;
-            case 7 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2017May()));
-              break;
-            case 8 :
+            case 4 :
               Navigator.push(context, PageTransition(
                   type: PageTransitionType.fade, child: P1_2017Nov()));
               break;
-            case 9 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2017Nov()));
-              break;
-
-          //2016 Papers
-            case 10 :
+            case 5 :
               Navigator.push(context, PageTransition(
                   type: PageTransitionType.fade, child: P1_2016Nov()));
               break;
-            case 11 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2016Nov()));
-              break;
-            case 12 :
+            case 6 :
               Navigator.push(context, PageTransition(
                   type: PageTransitionType.fade, child: P1_2016May()));
               break;
-            case 13 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2016May()));
-              break;
-            case 14 :
+            case 7 :
               Navigator.push(context, PageTransition(
                   type: PageTransitionType.fade, child: P1_2016Feb()));
-              break;
-            case 15 :
-              Navigator.push(context, PageTransition(
-                  type: PageTransitionType.fade, child: P2_2016Feb()));
               break;
             default :
               print("You pressed $index page");
