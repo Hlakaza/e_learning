@@ -65,7 +65,7 @@ class _CarouselState extends State<Carousel> {
           decoration: new BoxDecoration(
             //borderRadius: new BorderRadius.all(Radius.circular(10.0)),
             gradient: new LinearGradient(
-                [Colors.blueAccent, Colors.blue],
+                colors: [Colors.blueAccent, Colors.blue],
                 begin: const FractionalOffset(0.5, 0.0),
                 end: const FractionalOffset(0.0, 0.5),
                 stops: [0.0, 1.0],
