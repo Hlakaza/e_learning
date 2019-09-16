@@ -9,6 +9,7 @@ import 'Mathematics/HomePage.dart';
 import 'Physical_science/HomePage.dart';
 import 'package:page_transition/page_transition.dart';
 import  'Business_studies/Pastpapers/HPPastPaper.dart';
+import  'Accounting/Pastpapers/HPPastPaper.dart';
 
 class SubjectButtons extends StatelessWidget
 {
@@ -1100,7 +1101,7 @@ class SubjectButtons extends StatelessWidget
                   InkWell(
                     onTap: () {
                       Navigator.push(context, PageTransition(
-                          type: PageTransitionType.fade, child: HomepageBS()));
+                          type: PageTransitionType.fade, child: HomepageAC()));
                     },
                     child: Stack(
                       children: <Widget>[
