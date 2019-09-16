@@ -10,6 +10,7 @@ import 'Physical_science/HomePage.dart';
 import 'package:page_transition/page_transition.dart';
 import  'Business_studies/Pastpapers/HPPastPaper.dart';
 import  'Accounting/Pastpapers/HPPastPaper.dart';
+import  'Geography/Pastpapers/HPPastPaper.dart';
 
 class SubjectButtons extends StatelessWidget
 {
@@ -1206,7 +1207,13 @@ class SubjectButtons extends StatelessWidget
 
                     ),
                   ),
-                  Stack(
+
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(context, PageTransition(
+                          type: PageTransitionType.fade, child: HomepageGEO()));
+                    },
+                    child:Stack(
                     children: <Widget>[
 
                       Container(
@@ -1307,7 +1314,11 @@ class SubjectButtons extends StatelessWidget
 
                     ],
 
+                  ), 
                   ),
+
+
+                  
                   Stack(
                     children: <Widget>[
 
@@ -1512,6 +1523,8 @@ class SubjectButtons extends StatelessWidget
                     ],
 
                   ),
+
+
                 ],
               ),
             ],
