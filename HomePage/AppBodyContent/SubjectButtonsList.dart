@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'English_HL/HomePage.dart';
 import 'Tourism/HomePage.dart';
-import 'Geography/HomePage.dart';
+import 'Geography/Pastpapers/HPPastPaper.dart';
 import 'Life_science/HomePage.dart';
 import 'Mathematics_lit/HomePage.dart';
 import 'Mathematics/HomePage.dart';

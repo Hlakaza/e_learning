@@ -38,12 +38,12 @@ class WelcomeContainer extends StatelessWidget
                       alignment: Alignment.center,
                       imageUrl: "https://matriclive.com/new_feature/illustrations/education.gif",
                       placeholder: (context, url) =>
-                      new Image.asset("assets/ui_assets/preloader3.gif",
+                      new Image.asset("assets/ui_assets/no_internet_frame.png",
                         width: 180,
                         height: 120,
                       ),
                       errorWidget: (context, url, error) =>
-                      new Image.asset("assets/ui_assets/default_error.png",
+                      new Image.asset("assets/ui_assets/no_internet_frame.png",
                         width: 60,
                         height: 60,
                       ),

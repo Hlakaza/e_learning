@@ -6,9 +6,9 @@ class TopicButtonArray {
 
   var ColorTheme = [
 
-    Color(0xffff4d0c), //AppBar Theme Color
+    Color(0xffff9800), //AppBar Theme Color
     Color(0xffff9800),Color(0xffff4d0c), //Title And Video Gradient Color
-    Colors.deepOrange, // Horizontal Extra Buttons Title Color
+    Color(0xffff4d0c), // Horizontal Extra Buttons Title Color
 
   ];
 

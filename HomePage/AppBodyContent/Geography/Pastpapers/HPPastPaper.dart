@@ -12,7 +12,6 @@ import 'Papers/P2_2018Feb.dart';
 import 'Papers/P1_2017Feb.dart';
 import 'Papers/P2_2017Feb.dart';
 import 'Papers/P1_2017May.dart';
-import 'Papers/P2_2017May.dart';
 import 'Papers/P1_2017Nov.dart';
 import 'Papers/P2_2017Nov.dart';
 //PP2016
@@ -65,7 +64,7 @@ class _CarouselState extends State<Carousel> {
           decoration: new BoxDecoration(
             //borderRadius: new BorderRadius.all(Radius.circular(10.0)),
             gradient: new LinearGradient(
-                colors: [Colors.redAccent, Colors.red],
+                colors: [Color(0xffff9800),Color(0xffff4d0c)],
                 begin: const FractionalOffset(0.5, 0.0),
                 end: const FractionalOffset(0.0, 0.5),
                 stops: [0.0, 1.0],
@@ -106,7 +105,7 @@ class _CarouselState extends State<Carousel> {
                   Container(
                     //margin: EdgeInsets.only(right: 5.0),
                     child: Image.asset(
-                      "assets/subject_icons/Geography.png",
+                      "assets/subject_icons/geography.png",
                       width: 30.0,
                       height: 30.0,
                     ),
@@ -248,39 +247,31 @@ class _CarouselState extends State<Carousel> {
                 break;
               case 7 :
                 Navigator.push(context, PageTransition(
-                    type: PageTransitionType.fade, child: P2_2017May()));
-                break;
-              case 8 :
-                Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P1_2017Nov()));
                 break;
-              case 9 :
+              case 8 :
                 Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P2_2017Nov()));
                 break;
 
             //2016 Papers
-              case 10 :
+              case 9 :
                 Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P1_2016Nov()));
                 break;
-              case 11 :
+              case 10 :
                 Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P2_2016Nov()));
                 break;
-              case 12 :
+              case 11 :
                 Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P1_2016May()));
                 break;
+              case 12 :
+                Navigator.push(context, PageTransition(
+                    type: PageTransitionType.fade, child: P2_2016Mayb()));
+                break;
               case 13 :
-                Navigator.push(context, PageTransition(
-                    type: PageTransitionType.fade, child: P2_2016May()));
-                break;
-              case 14 :
-                Navigator.push(context, PageTransition(
-                    type: PageTransitionType.fade, child: P1_2016Feb()));
-                break;
-              case 15 :
                 Navigator.push(context, PageTransition(
                     type: PageTransitionType.fade, child: P2_2016Feb()));
                 break;
