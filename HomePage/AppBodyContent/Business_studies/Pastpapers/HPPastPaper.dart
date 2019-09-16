@@ -23,7 +23,7 @@ import 'Papers/P2_2016May.dart';
 import 'Papers/P1_2016Nov.dart';
 import 'Papers/P2_2016Nov.dart';
 
-class HomepagePP extends StatelessWidget
+class HomepageBS extends StatelessWidget
 {
   @override
   Widget build(BuildContext context) {
