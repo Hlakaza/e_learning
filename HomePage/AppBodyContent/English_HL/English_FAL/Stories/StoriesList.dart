@@ -57,7 +57,7 @@ class Story1 extends StatelessWidget {
               ),
             ),
             body: new Container(
-              padding: EdgeInsets.all(12.0),
+              //padding: EdgeInsets.all(12.0),
               width: MediaQuery.of(context).size.width,
               color: Colors.white,
               child: new ListView(
