@@ -592,238 +592,6 @@ society just as the Zulu people are seen as lower than in this society.</p>
 
 //Topic 2
 
-class Topic2R1 extends StatefulWidget
-{
-  @override
-  _Topic2R1State createState() => _Topic2R1State();
-}
-
-class _Topic2R1State extends State<Topic2R1> {
-
-  void _nightmode()
-  {
-    setState(() {
-
-      print("pressed");
-
-
-      if (defaultTextColor == Colors.black && defaultBacColor == Colors.white)
-      {
-        defaultBacColor = nightModeColorBac;
-        defaultTextColor = nightModeColorText;
-        defaultAppBarColor = Colors.grey.shade900;
-      } else {
-
-        defaultTextColor = Colors.black;
-        defaultBacColor = Colors.white;
-        defaultAppBarColor = TopicButtonArray().ColorTheme[0];
-
-      }
-
-    });
-  }
-
-  void _fontIncrease()
-  {
-    setState(() {
-
-      ++_Fontsize;
-
-    });
-  }
-
-  void _fontDecrease()
-  {
-    setState(() {
-
-      --_Fontsize;
-
-    });
-  }
-
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-
-    var topicName = TopicButtonArray().TopicTitle[1]; //Topic Name Here
-
-    return SafeArea(
-      child: ClipRRect(
-        borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(25.0), topRight: Radius.circular(25.0)),
-        child: new Scaffold(
-          appBar: new AppBar(
-            backgroundColor: defaultAppBarColor,
-            elevation: 0.0,
-            title: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-
-                Text("$topicName",
-                  style: TextStyle(
-                    fontSize: 12.0,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: "NunitoSans-Regular",
-                  ),
-
-                ),
-
-                new PopupMenuButton<WhyFarther>(
-                  onSelected: (WhyFarther result) { setState(() {  }); },
-                  itemBuilder: (BuildContext context) => <PopupMenuEntry<WhyFarther>>[
-                    PopupMenuItem<WhyFarther>(
-                      value: WhyFarther.harder,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-
-                          IconButton(
-                            icon: new Icon(
-                              Icons.zoom_in,
-                              color: Colors.black,
-                            ),
-                            onPressed:_fontIncrease,
-                          ),
-
-                          IconButton(
-                            icon: new Icon(
-                              Icons.zoom_out,
-                              color: Colors.black,
-                            ),
-                            onPressed: _fontDecrease,
-                          ),
-
-                        ],
-                      ),
-                    ),
-                    PopupMenuItem<WhyFarther>(
-                      value: WhyFarther.smarter,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-                          Text('Night Mode'), IconButton(
-                            icon: new Icon(
-                              Icons.remove_red_eye,
-                              color: Colors.black,
-                            ),
-                            onPressed: _nightmode,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-
-
-              ],
-
-            ),
-          ),
-          body: new Container(
-            color : defaultBacColor,
-            child: new SingleChildScrollView(
-              padding: const EdgeInsets.all(10.0),
-              child: new Center(
-
-                child: new Column(
-
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: <Widget>[
-
-                    CachedNetworkImage(imageUrl: "http://www.ba-education.com/dna/dnafour.jpg",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('The discovery of DNA',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('Thoughout the 20th century, many scientists have tried to study the DNA. In the early 1950s two scientists, Rosalind Franklin and Maurice Wilkins, studied DNA using x-rays.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-
-                    new Text('Maurice Wilkins and Rosalind Franklin produced an x-ray photograph of the DNA.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Text('\nOn the other hand two other researchers watson and crick were also studying the DNA structure. Maurice Wilkins decieved Rosalind Franklin and leaked the x-ray photogragh. This allowed watson and crick to work out the 3D structure of DNA.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    new Padding(padding: const EdgeInsets.all(10.0)),
-
-                    new Text('They discovered that the structure was a double helix.',
-
-                      style: new TextStyle(
-
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17.0,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                    CachedNetworkImage(imageUrl: "http://www.hammiverse.com/lectures/16/images/2-1.jpg",placeholder: (context, url) => new Image.asset("assets/ui_assets/preloader3.gif",),errorWidget: (context, url, error) => new Image.asset("assets/ui_assets/default_error.png",width: 60,height: 60,),),
-
-
-                    new Text('\nIn 1962 Crick and Watson, along with Wilkins, received the Nobel Prize for their discovery. Sadly Rosalind had died four years earlier.',
-
-                      style: new TextStyle(
-
-                        fontSize: _Fontsize,
-                        color: defaultTextColor,
-
-                      ),
-                    ),
-
-                  ],
-                ),
-              ),
-
-            ),
-          ),
-        ),
-      ),
-    );
-
-
-  }
-}
-
 
 
 //Topic 3
@@ -1437,13 +1205,13 @@ Wedding metaphor – our country is a new bride and innocent as she is reborn �
 </p><p>Line 10: shook up – unsettled
 old man – older generation who may be in disbelief, or cynics.
 </p><p>Line 11: "F" alliteration is soft Repetitive form of line structure – overwhelming joy prompting an unrestrained physical response. Impulsive responses from people showing unity.
-</p><p>Line 12: everyone came – emphasises unity from all the fields – lands means fields not necessarily countries
+</p><p>Line 12: everyone came – emphasises unity from all the fields– lands means fields not necessarily countries
 </p><p>Line 13: repetition of “first day” to emphasise the newness of their happiness
 </p><p>Line 14: renewed stature of ancestors – look at the ancestor worship, they have not given up on them and they are there – amadlozi – spiritual blessing, also those killed during apartheid and death was worth it
 </p>
 
 
-<h4>Questions $ Answers</h4>
+<h4>Questions Answers</h4>
 
 <p><b>1.What clues suggest the rural setting of the poem? Quote from the poem to support your answer. (3)</b></p>
 
@@ -1787,7 +1555,7 @@ devices’, it is centred on sound and the lack of it. Cronin refers to a ’tal
 </p><p> The poem is commenting on sound by emphasising its absence
 </p>
 
-<h4>Questions $ Answer</h4>
+<h4>Questions Answer</h4>
 
 <p><b>1. Provide an explanation for the prisoner’s use of the mirror. (1)</b></p>
 
@@ -2391,7 +2159,7 @@ off as sloppiness, laziness, or even just quirky variations, are more likely del
 choices.</p>
 
 
-<h4>QUESTIONS $ SUGGESTED ANSWERS</h4>
+<h4>QUESTIONS SUGGESTED ANSWERS</h4>
 
 <p><b>1. State the possible meanings of the word ‘Blues’ in the title, and relate this
 to the poem itself.</b></p>

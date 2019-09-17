@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../ClassArrays/TopicButtonArray.dart';
+import '../../../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -46,14 +46,13 @@ class Chapter1 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
                         fontFamily: "Quicksand",
                         fontWeight: FontWeight.bold,
-                      )),
+                      ),),
                 ],
               ),
             ),
@@ -167,8 +166,7 @@ class Chapter2 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -281,8 +279,7 @@ class Chapter3 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -410,8 +407,7 @@ class Chapter4 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -518,8 +514,7 @@ class Chapter5 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -631,8 +626,7 @@ class Chapter6 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -742,8 +736,7 @@ class Chapter7 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
@@ -852,8 +845,7 @@ class Chapter8 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("The Strange Case of Dr Jekyll and Mr Hyde",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],

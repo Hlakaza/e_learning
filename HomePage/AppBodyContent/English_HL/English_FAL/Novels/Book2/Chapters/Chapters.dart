@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../ClassArrays/TopicButtonArray.dart';
+import '../../../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:flutter_html/flutter_html.dart';
@@ -46,8 +46,7 @@ class Chapter1 extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("The Strange Case of Dr Jekyll
-and Mr Hyde",
+                  new Text("Cry, The Beloved Country",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],

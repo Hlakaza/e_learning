@@ -6,7 +6,7 @@ import 'package:page_transition/page_transition.dart';
 import 'Book1/HomePage.dart';
 import 'Book2/HomePage.dart';
 
-class Stories extends StatelessWidget {
+class Novel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -75,13 +75,14 @@ class Stories extends StatelessWidget {
                     title: "Cry, The Beloved Country",
                     route: Novel2(),
                   ),
-                  ),
+
+
 
                  ],
               ),
             ),
           ),
-        ),
+      ),
       ),
     );
   }

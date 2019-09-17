@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../ClassArrays/TopicButtonArray.dart';
+import '../../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -66,31 +66,7 @@ class Novel1 extends StatelessWidget {
               child: new ListView(
                 children: <Widget>[
 
-                  new Container(
-                    //color: Colors.black,
-                    width: MediaQuery.of(context).size.width,
-                    height: 170.0,
-                    child: new Center(
-                      child: new CachedNetworkImage(
-                        height: double.infinity,
-                        width: double.infinity,
-                        alignment: Alignment.center,
-                        imageUrl: TopicButtonArray().Imageurls[0],
-                        placeholder: (context, url) =>
-                        new Image.asset("assets/ui_assets/preloader3.gif",
-                          width: 90,
-                          height: 60,
-                        ),
-                        errorWidget: (context, url, error) =>
-                        new Image.asset("assets/ui_assets/default_error.png",
-                          width: 60,
-                          height: 60,
-                        ),
-                      ),
-                    ),
-                  ),
 
-                  SizedBox(height: 20.0,),
 
                   new EnglishButton(
                     title: "Chapters",
