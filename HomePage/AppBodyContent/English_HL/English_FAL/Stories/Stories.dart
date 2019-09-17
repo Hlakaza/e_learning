@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import '../ClassArrays/TopicButtonArray.dart';
+import '../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
-import 'Stories/Stories.dart';
-//import 'Summary.dart';
-//import 'Characters.dart';
+import 'StoriesList.dart';
 
-class English_FAL extends StatelessWidget {
+class Stories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -68,17 +66,42 @@ class English_FAL extends StatelessWidget {
 
                   
                   new EnglishButton(
-                    title: "Short Stories",
-                    route: Stories(),
+                    title: "The New Tribe",
+                    route: Story1(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Novel",
+                    title: "Transforming Moments",
                     //route: Summary(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Drama",
+                    title: "A Chip of Glass Ruby",
+                    //route: Characters(),
+                  ),
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "New Door",
+                    //route: Characters(),
+                  ),
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "The Doll's House",
+                    //route: Characters(),
+                  ),
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "The Fur Coat",
+                    //route: Characters(),
+                  ),
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "The Last Breath",
+                    //route: Characters(),
+                  ),
+                  SizedBox(height: 15.0,),
+                  new EnglishButton(
+                    title: "Village People",
                     //route: Characters(),
                   ),
 
