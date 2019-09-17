@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import '../ClassArrays/TopicButtonArray.dart';
+import '../../../ClassArrays/TopicButtonArray.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 
-import 'Stories/Stories.dart';
-import 'Novels/NovelList.dart';
-import 'Drama/DramaList.dart';
-//import 'Characters.dart';
+import 'Chapters/HomeC.dart';
+import 'Summary.dart';
+import 'Characters.dart';
 
-class English_FAL extends StatelessWidget {
+class Novel2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -67,20 +66,21 @@ class English_FAL extends StatelessWidget {
               child: new ListView(
                 children: <Widget>[
 
-                  
+                
+
                   new EnglishButton(
-                    title: "Short Stories",
-                    route: Stories(),
+                    title: "Acts",
+                    route: ChapterList(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Novel",
-                    route: Novel(),
+                    title: "Summary",
+                    route: Summary(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
-                    title: "Drama",
-                    route: Drama(),
+                    title: "Characters",
+                    route: Characters(),
                   ),
 
                  ],

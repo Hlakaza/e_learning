@@ -67,7 +67,7 @@ class _Topic1R2State extends State<Topic1R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[14]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -391,7 +391,7 @@ class _Topic2R2State extends State<Topic2R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[15]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -766,7 +766,7 @@ class _Topic3R2State extends State<Topic3R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[16]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -1082,7 +1082,7 @@ class _Topic4R2State extends State<Topic4R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[17]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -1518,7 +1518,7 @@ class _Topic5R2State extends State<Topic5R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[18]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -1767,7 +1767,7 @@ class _Topic6R2State extends State<Topic6R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[19]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -1976,7 +1976,7 @@ class _Topic7R2State extends State<Topic7R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[20]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -2240,7 +2240,7 @@ class _Topic8R2State extends State<Topic8R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[21]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -2451,7 +2451,7 @@ class _Topic9R2State extends State<Topic9R2> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-    var topicName = TopicButtonArray().TopicTitle[7]; //Topic Name Here
+    var topicName = TopicButtonArray().TopicTitle[22]; //Topic Name Here
 
     return SafeArea(
       child: ClipRRect(
@@ -2543,45 +2543,249 @@ Html(
   data: """
     
       
-<div id="foo" class="panel">
+<div id="foo" class="panel show">
 <br>
 
-<p><b>Type of poem</b>: Free verse</p>
 
-<p><b>Setting</b>: There is not one particular setting but in general we could say South Africa, as this poem is a celebration of his country.
+<pre>Were it possible to say, 
+Mother, I have seen more beautiful mothers, 
+A most loving mother,
+And tell her there I will go,
+Alexandra, I would have long gone from you.
 
-</p><p><b>Symbolism</b>: The progression of speech and transport symbolises the progression of society and the traditions of the people.
+But we have only one mother, none can replace, 
+Just as we have no choice to be born, 
+We can't choose mothers; 
+We fallout of them like we fallout of life to death.
 
-</p><p><b>Theme</b>: Progression, nothing is stagnant in life, everything progresses, ages and matures.
+And Alexandra, 
+My beginning was knotted to you, 
+Just like you knot my destiny. 
+You throb in my inside silences 
+You are silent in my heart-beat that's loud to me. 
+Alexandra often I've cried. 
+When I was thirsty my tongue tasted dust, 
+Dust burdening your nipples.
+I cry Alexandra when I am thirsty. 
+Your breasts ooze the dirty waters of your dongas, 
+Waters diluted with the blood of my brothers, your children, 
+Who once chose dongas for death-beds. 
+Do you love me Alexandra, or what are you doing to me?
 
-</p><p><b>Mood</b>: The poet is feeling awestruck with his beautiful country and wants to celebrate South Africa’s unique features.
+You frighten me, Mama,
+You wear expressions like you would be nasty to me, 
+You frighten me, Mama, 
+When I lie on your breast to rest, something tells me, 
+You are bloody cruel. 
 
-</p><p><b>Summary</b>: This poem focuses on the progression and parallelism of speech, transport, stages of a river and time periods. Each of these celebrate the progression, diversity and growth of South Africa, of the land and the people.
+Alexandra, hell 
+What have you done to me? 
+I have seen people but I feel like I'm not one, 
+Alexandra what are you doing to me?
+I feel have sunk to such meekness! 
+I lie flat while others walk on me to far places. 
+I have gone from you, many times,
+I come back. 
+Alexandra, I love you; 
+I know 
+When all these worlds became funny to me, 
+I silently waded back to you 
+And amid the rubble I lay, 
+Simple and black. 
+</pre>
+
+<h4>Words</h4>
+<p>Pay exceedingly close attention to what individual words mean—and especially to what you think might be keywords, since this is where meaning can be concentrated.
+</p>
+<ul>
+<li>	Which words stand out, and why?
+</li><li> Consider how words may carry more than one meaning. A dictionary is obviously useful, especially one based on historical principles, since it will point to how the meanings of words may have changed over time. “Silly” once meant “helpless.”
+</li><li>	Do any words carry non-contemporary or unfamiliar meanings?
+</li><li>	Do any words likely carry multiple and/or ambiguous meanings?  
+</li><li>	Do repeated words carry the same meaning when repeated, or do they change? Words often gather or evolve in meaning when repeated.  
+</li><li>	Do particular words or phrases seem drawn to or connected with each other? These often add up so that a clearer sense of the poem emerges.
+</li><li>	Do you notice lots of material or immaterial things (nouns) or lots of action (verbs)? Is the poem concrete, about specific things and places, or is the poem more abstract, about concepts or ideas? Is the poem full of movement, or does it seem to stay still and look at one thing?
+</li><li>	Do certain words seem to clash with each other, and what effect does this have? Think in terms of oppositions, tensions, conflicts, and binaries.
+</li></ul>
+
+<h4>Diction</h4>
+<ul>
+<li>	Is the word choice distinctive? Does it add up to a kind of style—for example, is it elaborate, dense, simple, archaic, formal, conversational, descriptive, abstract, and so on?
+</li><li>	How would you describe the level of language and vocabulary (register): informal, formal, common, casual, neutral, mixed?
+</li></ul>
+
+<h4>Tone</h4>
+<p>Address the tone of the speaker or narrator, which is the attitude taken by the poem’s voice toward the subject or subjects in the poem:</p>
+<ul>
+<li>	What is the attitude taken by the “voice” of the poem toward the subjects of the poem? Is the tone serious, ironic, amorous, argumentative, distant, intimate, somber, abrupt, playful, cheerful, despondent, conversational, yearning, etc.—or is it mixed, changing, ambiguous, or unclear?
+</li></ul>
+
+
+<h4>Word Order</h4>
+<p>Focus on how the words are ordered. Look for patterns; in drawing attention to themselves, they require your attention:</p>
+<ul>
+<li>	Is the word order or sentence structure (syntax) unusual in any way, and what is the effect of this?
+</li><li>	Are there any noticeable patterns in the ordering of words? If so, how do the patterns contribute to meaning?
+</li><li>	Do the lines have strong end-stops, or do they break across lines (enjamb)? Do the lines end with a final stress or rhyme? Does each line tend to be a self-contained, grammatical unit, or does it vary? What effect does this have?
+</li><li>	Are there lots of long, complete sentences (simple or complex?), or are there many sentence fragments and phrases? Does the poem stop and start, or does it move or flow continuously? What is the effect of this?
+</li></ul>
+
+<h4>Punctuation</h4>
+<p>Punctuation organizes and creates relationship between words, phrases, clauses, and sentences. In poetry, where lines are often seen as units of meaning, the importance of punctuation is sometimes magnified, though often overlooked. Punctuation can create or reinforce rhythm. It can also control meaning or make meaning uncertain by its placement and usage, especially if it is used minimally, or in some cases, not at all.</p>
+<ul>
+<li>	What role does punctuation have in the poem?
+</li><li>	Does it follow accepted rules and conventions, or is it used in unusual ways?
+</li></ul>
+
+
+<h4>Figurative Language</h4>
+<p>Related to word meaning is figurative language, which often plays a crucial role in both condensing language yet expanding meaning. Most generally, figurative language refers to language that is not literal. The phrase “fierce tears” (the personification of tears) is not literal, but it is both precise and suggestive in carrying meaning.
+</p>
+<ul>
+<li>	Are certain words used in unusual, non-literal, non-standard, exaggerated, or metaphorical ways? What effect do these figures of speech have?
+</li><li>	Which words or phrases are used literally (they denote something literal) and which are used figuratively (they connote something figurative)? 
+<p>Much of what we read is literal: The evening sky was dark; he looked up; he felt sick.  Figurative language refers to language not used literally—it is used abstractly, indirectly, and often evocatively. The evening is spread out against the sky like a patient etherized upon a table. Here we have an evening (a thing), spreading (an action), a patient (thing), etherizing (an action), and a table (thing). But an evening cannot be a drugged patient spread out upon a table, perhaps ready to be operated upon; this description cannot be literally true (there is no patient, no etherizing, no table, and evenings don’t literally spread out against skies); this language is used figuratively.
+</p></li><li>	How does non-literal or figurative language suggest a certain meaning?
+</li><li>	What mood or feeling is evoked via this figurative, non-literal language?
+</li></ul>
+
+<h4>Imagery</h4>
+<p>When figurative language (like metaphor or simile) provides a picture that evokes any of the senses, we call this imagery. “She is the sun” (a simile) contains imagery of light and warmth (the senses of sight and touch). 
+</p>
+<ul>
+<li>	What imagery—pictures or senses that are evoked in words—is present in the poem? What imagery, if any, is most striking, frequent, or patterned?
+</li><li>	What images seem related or connected to each other?
+</li><li>	What mood or atmosphere is created by the imagery?
+</li><li>	Which details stand out? Why?
+</li><li>	What sense (if any) seems to dominate the poem: sight, sound, taste, touch, smell?
+</li></ul>
+
+
+<h4>Allusion</h4>
+<p>Poetry sometimes contains brief references to things outside itself—a person, place, or thing—that will expand, clarify, or complicate its meaning. Sometimes they are obvious and direct, and sometimes they are subtle, indirect, and debatable. Allusions are frequently references made to other texts (for example, to the Bible, or to another poem).
+</p>
+<ul>
+<li>	What allusions, if any, can you detect?
+</li><li>	What effect do the allusions have upon the poem?
+</li><li>	If it is a literary allusion, how does it relate to or connect with the original text?
+</li></ul>
+
+
+<h4>Sound</h4>
+<p>You probably first read a poem to yourself, silently, but most poems also create sense though sounds, unlike concrete poetry, which operates visually. Try reading the poem aloud. Sound brings attention to both individual words that are drawn together through their sound as well as to the overall “feeling” or experience. For example, repetition of sounds like “s,” “m,” “l,” and “f” might encourage a soft or sensuous feeling: “Season of mists and mellow fruitfulness . . .”
+</p>
+<ul>
+<li>	What words are drawn to each other because of sound, and how does this influence meaning? What tone do these sounds create (quiet, loud, sensual, aggressive, etc.)?
+<p>Also, think about whether the poem “moves” slowly or quickly, jerkily or fluidly.
+</p></li><li>	Does the poem move differently at different places in the poem? What effect does this have?
+</li><li>	How do the poem’s sounds contribute to its meaning? Does a particular sound or sounds dominate the poem? What is the effect of this?
+</li></ul>
+
+
+<h4>Rhythm</h4>
+<p>A poem’s rhythm can be regular or irregular. When it has regular rhythmical sound patterns, we say the poem has a certain meter. The type of meter is based on the number of syllables per line and how many unstressed (x) or stressed (/) syllables there are. (“I WAN-dered LONE-ly AS a CLOUD“; x /  x /  x /  x / ). A small, distinct group of accented words is called a foot (“a CLOUD”; x /). The various meters—tetrameter, pentameter, etc.—are based on the number of feet per line. (The meter in the above example has four regular feet, and is therefore tetrameter; because each foot has an unstressed syllable [x] followed by a stressed one [/], this is called an iamb. We would then say that the line is in iambic tetrameter; if it had an extra foot—that is, five feet—we would call it iambic pentameter.)
+</p>
+<ul>
+<li>	When you count out (scan) the syllables of a line, do they follow a rhythm? Is there a name for it?
+</li><li>	How prominent is the poem’s rhythm? Does the rhythm have any influence on the poem’s meaning? If so, in what way or ways?
+</li></ul>
+
+
+<h4>Melody</h4>
+<p>Melody refers to sound effects, such as rhyme, alliteration, assonance, and consonance, with each producing a unique melodic effect. Rhyme is a type of melody, and rhymes can be perfect with identical vowel sounds (“guy” and “high”) or slant, when the sound of the final consonants is identical, but not the vowels (“shell” and “pill,” “cement” and “ant”).
+</p>
+<ul>
+<li>	Do words at the end of lines rhyme? Why kind of rhymes are they? Do they form a pattern (a rhyme scheme) that is regular or irregular?
+</li><li>	Do the rhyming words have any relationship with each other? Does the rhyme concentrate meaning in any way?
+</li></ul>
+
+
+<h4>Speaker</h4>
+<p>All poems have a voice, which can be called a speaker (or in some case speakers, if there is more than one person “speaking” the poem).
+</p>
+<ul>
+<li>	Who “tells” the poem? Are there things you can say about the speaker’s personality, point of view, tone, society, age, or gender?
+</li><li>	Does the speaker assume a persona at any point in the poem, and speak “as” a particular person (e.g., “I am Lazarus, come from the dead . . . I shall tell you all”)?
+</li><li>	Does the speaker seem attached or detached from what is said?
+</li><li>	What effect do the speaker’s characteristics have on the poem?
+<p>Likewise, all poems have a silent or implied listener/reader, an addressee.</p>
+</li><li>	Is it possible to figure out to whom the poem is addressed? Is there an ideal listener or reader?
+</li><li>	Does the speaker seek anything from the listener/reader (sympathy, support, agreement, etc.)?
+</li></ul>
+
+
+<h4>Narrative/Narrator</h4>
+<p>Poems capture thoughts, ideas, feelings, impressions, experiences, and incidents, but sometimes poems also tell a story. Ask yourself:</p>
+<ul>
+<li>	What is happening in the poem? What action, drama, or conflict is present? Is there more than one event in the poem? Does anything change in the poem (is an action completed, does an attempted action fail, or does someone change in an important way)?
+</li><li>	Who tells the story, and what relationship does the narrator have to the story?
+</li></ul>
+
+<h4>Time</h4>
+<ul>
+<li>	What is the temporal structure of the poem? Does it take place in one time (the present, the past, the future) or does it move back and forth between times?
+</li><li>	Does it present single actions in time or continuing actions? Does it bring different times together or set them apart (e.g., “then” vs. “now”)?
+</li><li>	Is there a particular occasion for the poem (an incident, an event, a realization)?
+</li><li>	Does it focus on indicative states (“I am, I will be”) or conditional states (“I could be, I would be”)?
+</li><li>	Are different parts of the poem located in different times?
+</li><li>	Does time move smoothly? Are different states of being, or different ways of thinking, associated with different times? (“I used to think ‘X’, but now I think  ‘Y’”)?
+</li></ul>
+
+
+<p>Setting answers the questions “Where?” and “When?” in the poem, though often poems are not set in a specific location or time.</p>
+<ul>
+<li>	Is a sense of place clear (urban, pastoral, forest, desert, beach, etc.), or does the poem seem to occupy an abstract time and place (such as mental or emotional state)?
+For some poems, a difficult but key question may be this:
+</li><li>	Where are we?
+</li></ul>
+
+
+<h4>Symbol</h4>
+<p>A symbol represents or stands for something other than the image itself. A symbol, then, is often something concrete—a word, a thing, a place, a person (real of fictitious), an action, an event, a creation, etc.—that represents something larger, abstract, or complex—an idea, a value, a belief, an emotion. A river (a thing) can be symbol for life; Gomorrah (a place) can be a symbol of shameless sin; Homer Simpson (a fictitious person) can be a symbol of innocent stupidity; a strawberry (a thing) can be a symbol of sensual love.</p>
+<ul>
+<li>	Does the poem have any clear or central symbols? What meaning do they bring to the poem?
+</li></ul>
+
+
+<h4>Form</h4>
+<p>Poetic form usually refers to the structure that “holds” or gives “shape” to the poem—in a way, what it looks like to you on the page. This will include groupings or sets of lines, called stanzas. Another, more interesting way to consider form is to say that it necessarily determines the content of the poem, especially in the case of a particular genre, like a ballad, epic, or sonnet; these specific forms (sometimes called “closed forms”) often have structures and stylistic conventions that are both structural and that convey units of meaning or conventions of rhyme, meter, or expression. If the poem you are reading has a particular form or structure determined by genre, learn something about the conventions of that genre, since this can direct your attention to certain expectations of content.</p>
+<ul>
+<li>	Is the poem of a particular genre? What are its conventions?
+</li><li>	If it doesn’t fit particular genre, how would you describe its form?
+</li><li>	What is the relationship between form and meaning in the poem?
+</li><li>	Are there clear parts to the poem, and if so, how are they similar/different?
+<p>Poems that do not follow determined, formal conventions or genre have an “open form.”
+</p></li></ul>
+
+
+
+
+
+<h4>Ideas</h4>
+<ul>
+<li>	Are the ideas of the poem simple or complex, small or large?
+</li><li>	Is there one main problem in the poem? How does the poem think through that problem?
+</li><li>	What are the ideas that the poem seeks to embody in images?
+</li><li>	What is the poem’s process of thinking? Does it change its “mind” as it proceeds?
+</li><li>	Does the poem proceed logically or illogically? Can you tell the way it is thinking, or is it unclear, opaque, and confusing?
+</li><li>	How do the ideas change from line to line, stanza to stanza?
+</li><li>	Does the poem offer an argument?
+</li><li>	Does the poem reflect a particular experience, feeling, or concept?
+</li></ul>
+
+
+<h4>Theme</h4>
+<p>“Purity” is a subject, not a theme; “purity is vulnerability” is a theme. “Theme” refers to a larger, more general, or universal message—a big idea—as well as to something that you could take away from the work and perhaps apply to life. One way to determine a theme is to
 </p>
 
-<p>The progression implies a journey that the nation is going on and reaching one’s final destination. The poet brings the poem full circle through the repetition of the first line in the concluding couplet. This symbolises the seasons that end but begin again, same with life and death. The poem progresses from the “places of occlusion” and a minimalist landscape of earth, vlei-bank, and moon, to the tin shacks of the city; it includes rural and urban, and coloniser and colonised.
-
-</p><p>Finally, the poet hints at the social difficulties of black people and the inhumane demands of their work.
-
-
-</p><p>As we go through the poem, let’s focus on the different progressions by listing the examples given in the poem:
+<p><b>1)</b> ask yourself what the poem is about;
+</p><p><b>2)</b> come up with some one-word answers to that question (subjects of the poem); and
+</p><p><b>3)</b> ask what general attitude (tone) is taken towards those subjects in the poem.
+You might conclude that, for example, “love,” “trust,” or “loss” are subjects. Now, try to figure out what the attitude in the poem is toward that one-word subject and you have theme—for example, “love is dangerous,” “you cannot trust people close to you,” “loss makes you stronger.” But don’t think this is always easy or straightforward: many poems resist reduction to simple themes or even subjects, and such resistance—sometimes in the form of ambiguity, paradox, abstraction, or complexity—strengthens our interest in and engagement with the poem. Poems are not necessarily answers, but they may be problems or questions.
 </p>
 
-<p>Speech progression –  to speak, to parse, to catch, inarticulate grunt, stammer, call, cry, babble, tongue’s knot, words are cut, to trace with the tongue, -kuil, -pan, -fontein, vlei-bank, stompie, stickfast, golovan, songololo, ikwata bust fife, saying, mouth, telling, inflections, to voice, chant, voices
-</p>
 
-<p>River progression – rivers, catch, babble, -kuil, -pan, -fontein, watery names, occlusion, lick, vlei-bank, mouth, water-table
-</p>
-
-<p>Transport progression –  historical trek of Boer pioneers along the dry wagon trails, the morning commute of the black workers to Johannesburg on the 5:15 train, and the descent of the mineworkers into the earth
-</p>
-
-<p>Time periods – stoniness of these stones, wagon-trails, planetarium, pectoral beginning to the nub of time, syllables born in tin shacks, train, mining
-
- </p></div>
-     
-
-
+ </div>
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),

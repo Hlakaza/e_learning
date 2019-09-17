@@ -41,7 +41,7 @@ class HomePage_EHL extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.only(right: 5.0),
                   child: Image.asset(
-                    "assets/subject_icons/dna.png",
+                    "assets/subject_icons/english.png",
                     width: 30.0,
                     height: 30.0,
                   ),
@@ -89,133 +89,11 @@ class HomePage_EHL extends StatelessWidget {
                   height: 40.0,
                 ),
 
-                new Container(
-                  decoration: new BoxDecoration(
-                    color: Colors.transparent,
-                  ),
-                  child: new Center(
-                    child: new Container(
-                      padding: EdgeInsets.all(10.0),
-                      height: 70.0,
-                      width: MediaQuery.of(context).size.width / 1.1,
-                      decoration: new BoxDecoration(
-                          borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-                        gradient: new LinearGradient(
-                            colors: [TopicButtonArray().ColorTheme[1],TopicButtonArray().ColorTheme[2]],
-                            begin: const FractionalOffset(0.5, 0.0),
-                            end: const FractionalOffset(0.0, 0.5),
-                            stops: [0.0, 1.0],
-                            tileMode: TileMode.clamp),
-                        boxShadow: [
-                        BoxShadow(
-                          color: TopicButtonArray().ColorThemeBoxshadow[0],
-                          offset: Offset(0.0,  10.0, ),
-                          blurRadius: 5.0,
-                        ),
-                      ],
-                      ),
-                      child: new Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: <Widget>[
-
-                          new Container(
-                            height: 50.0,
-                            width: 50.0,
-                            decoration: new BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: new BorderRadius.all(Radius.circular(20.0)),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black12,
-                                  offset: Offset(0.0,  2.0, ),
-                                  blurRadius: 5.0,
-                                ),
-                              ],
-                            ),
-                            child: new Center(
-                              child: IconButton(
-                                  icon: Icon(
-                                    Icons.play_arrow,
-                                    color: TopicButtonArray().ColorTheme[1],
-                                    size: 30.0,
-                                  ),
-                                  onPressed: () {
-                                    print("pressed");
-                                  }),
-                            ),
-                          ),
-                          new Text("Start Video Learning Journey",
-                          style: TextStyle(
-                              color: Colors.white
-                            ),
-                          ),
-                          new Container(
-                            height: 30.0,
-                            width: 30.0,
-                            decoration: new BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: new BorderRadius.all(Radius.circular(20.0)),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black12,
-                                  offset: Offset(0.0,  2.0, ),
-                                  blurRadius: 5.0,
-                                ),
-                              ],
-                            ),
-                            child: new Center(
-                              child: IconButton(
-                                  icon: Icon(
-                                    Icons.arrow_forward,
-                                    color: TopicButtonArray().ColorTheme[1],
-                                    size: 15.0,
-                                  ),
-                                  onPressed: () {
-                                    print("pressed");
-                                  }),
-                            ),
-                          ),
-
-                        ],
-                      ),
-                    ),
-                  ),
-                ), //Start Video tutorial Button Container
-
+                
                 new SizedBox(
                   height: 20.0,
                 ),
-
-                new Container(
-                  padding: EdgeInsets.all(10.0),
-                  height : 120.0,
-                  color: Color.fromRGBO(255, 255, 255, 0.54),
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    shrinkWrap: false,
-                    children: <Widget>[
-                      new Row(
-                        children: <Widget>[
-
-                          PastPaperButton(),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("Dictionary",TopicButtonArray().TopExtraButtonIcons[0],"0"),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("Study Tips",TopicButtonArray().TopExtraButtonIcons[1],"0"),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("MTG",TopicButtonArray().TopExtraButtonIcons[5],"0"),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("Diagrams",TopicButtonArray().TopExtraButtonIcons[2],"0"),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("Final Exam",TopicButtonArray().TopExtraButtonIcons[3],"0"),
-                          SizedBox(width: 15.0,),
-                          TopExtraButton("Study Guide",TopicButtonArray().TopExtraButtonIcons[4],"0"),
-                        ],
-                      ),
-
-                    ],
-                  ),
-                ), //Top Horizontal Button Container
+    
                 TermTopicTitle("${TopicButtonArray().RowTopicTitle[0]}"),
                 new Container(
                     decoration: new BoxDecoration(
@@ -307,39 +185,6 @@ class HomePage_EHL extends StatelessWidget {
                         ),
                       ],
                     )),//Topic List Container Scrolling Horzontal
-                TermTopicTitle("${TopicButtonArray().RowTopicTitle[3]}"),
-                new Container(
-                    decoration: new BoxDecoration(
-                      //border: new Border.all(color: Colors.black38),
-                      // borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-                      color: Colors.transparent,
-                    ),
-                    padding: EdgeInsets.only(left: 10.0),
-                    height: 200.0,
-                    width: MediaQuery.of(context).size.width,
-                    child: new ListView(
-                      scrollDirection: Axis.horizontal,
-                      shrinkWrap: false,
-                      children: <Widget>[
-                        new Row(
-                          children: <Widget>[
-                            new TopicButton("${TopicButtonArray().TopicImage[23]}", "${TopicButtonArray().TopicTitle[23]}", "23"),
-                            new TopicButton("${TopicButtonArray().TopicImage[24]}", "${TopicButtonArray().TopicTitle[24]}", "24"),
-                            new TopicButton("${TopicButtonArray().TopicImage[25]}", "${TopicButtonArray().TopicTitle[25]}", "25"),
-                            new TopicButton("${TopicButtonArray().TopicImage[26]}", "${TopicButtonArray().TopicTitle[26]}", "26"),
-                            new TopicButton("${TopicButtonArray().TopicImage[27]}", "${TopicButtonArray().TopicTitle[27]}", "27"),
-                            new TopicButton("${TopicButtonArray().TopicImage[28]}", "${TopicButtonArray().TopicTitle[28]}", "28"),
-                            new TopicButton("${TopicButtonArray().TopicImage[29]}", "${TopicButtonArray().TopicTitle[29]}", "29"),
-                            new TopicButton("${TopicButtonArray().TopicImage[30]}", "${TopicButtonArray().TopicTitle[30]}", "30"),
-                            new TopicButton("${TopicButtonArray().TopicImage[31]}", "${TopicButtonArray().TopicTitle[31]}", "31"),
-                            new TopicButton("${TopicButtonArray().TopicImage[32]}", "${TopicButtonArray().TopicTitle[32]}", "32"),
-                            SizedBox(width: 20.0),
-
-                          ],
-                        ),
-                      ],
-                    )),//Topic List Container Scrolling Horzontal
-
 
               ],
             ),
