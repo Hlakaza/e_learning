@@ -291,10 +291,7 @@ class Story3 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
-      <div class="panel show">
-
-<br>
+    
 <p>In A Chip of Glass Ruby by Nadine Gordimer we have the theme of sacrifice, prejudice, selfishness, justice, commitment and apartheid. Set in South Africa the story is narrated in the third person by an unnamed narrator and after reading the story the reader realises that Gordimer may be exploring the theme of sacrifice. Mrs Bamjee throughout the story is thinking of others and taking risks in order to help others. Something that is noticeable by her acquisition of the duplicating machine. With the machine she is able to spread a message of protest to others. A protest that involves highlighting the injustices of apartheid that existed in South Africa and which was formally established in the 1950s and followed through till its cessation in 1991. Mrs Bamjee is dedicated to the anti-apartheid cause even though it does not directly affect her. Due to her ethnicity (Indian) she is not subject to the same punitive measures that affected black people in South Africa. This may be important as it suggests that though apartheid is not necessarily Mrs Bamjee’s fight she still nonetheless is prepared to sacrifice all she has, including her freedom, in order to help others.
 
 </p><p>This is in contrast to her husband Bamjee who throughout the story shows a selfish and uncaring streak when it comes to the subject of apartheid. Because apartheid does not affect him directly he has no concerns about its effects on others, unlike Mrs Bamjee. In reality both Bamjee and Mrs Bamjee are politically the opposite of each other. One (Mrs Bamjee) can see that there is a great injustice being done and is looking for equality for all South Africans while throughout the story Bamjee thinks of no one but himself. Even suggesting that Mrs Bamjee’s arrest is her own fault. At no stage does he show his wife any support. As far as Bamjee is concerned Mrs Bamjee has a role to play and that role involves her life being centred on Bamjee and the family. While Mrs Bamjee is a struggling political activist Bamjee on the other hand has no time for anybody but himself.
@@ -306,7 +303,6 @@ class Story3 extends StatelessWidget {
 </p><p>The end of the story is also interesting as Bamjee despite his misgivings about Mrs Bamjee’s actions realises that he loves her because she is different to others. She is not like other Indian women. She is prepared to sacrifice her life not only for the anti-apartheid movement but Bamjee knows that she is also prepared to sacrifice her life for him and the family too. She is unwavering in her dedication to both her family and the anti-apartheid movement. Standing up for others who are unable to stand up for themselves. All in order to seek equality for every man, woman and child in South Africa. While Bamjee may not be able to connect with the anti-apartheid movement there is a sense at the end of the story that he does understand Mrs Bamjee’s commitment and it is this commitment that he has fallen in love with. He may not like the direction Mrs Bamjee is going (hunger strike) but he understands she is a forthright and strong woman who believes in equality for all.  Even if it means that she must sacrifice her life to achieve her goal.</p>
 
 
-</div>
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
