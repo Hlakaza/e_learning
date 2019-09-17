@@ -72,37 +72,37 @@ class Stories extends StatelessWidget {
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "Transforming Moments",
-                    //route: Summary(),
+                    route: Story2(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "A Chip of Glass Ruby",
-                    //route: Characters(),
+                    route: Story3(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "New Door",
-                    //route: Characters(),
+                    route: Story4(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "The Doll's House",
-                    //route: Characters(),
+                    route: Story5(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "The Fur Coat",
-                    //route: Characters(),
+                    route: Story6(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "The Last Breath",
-                    //route: Characters(),
+                    route: Story7(),
                   ),
                   SizedBox(height: 15.0,),
                   new EnglishButton(
                     title: "Village People",
-                    //route: Characters(),
+                    route: Story8(),
                   ),
 
                  ],
