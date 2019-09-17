@@ -65,7 +65,7 @@ class Story1 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       <p>A baby girl is abandoned at birth, and Reverend Arthur Arlington and his wife Virginia, known as Ginny, adopt her as they 
 are childless. Finding the beaurocratic drag of the adoption procedure tiresome, Arthur initially has misgivings about the 
 adoption. However, Ginny’s deep desire to be a mother overrides her husband’s reluctance and they finally adopt the baby 
@@ -117,7 +117,7 @@ school, married and had a child. She accompanied her husband to London where he 
 left him and took an honours degree in Sociology while supporting her five children and writing in her early mornings. She 
 has a lot of novels to her credit, including The Joys of Motherhood, The Bride Price and Second Class Citizen.
 </p>
-    </div>
+    
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -200,7 +200,7 @@ class Story2 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       
 <p>In Transforming Moments by Gcina Mhlophe we have the theme of insecurity, confidence, isolation independence, identity, acceptance and change. Narrated in the first person it becomes clear to the reader from the beginning of the story that Mhlophe may be exploring the theme of insecurity and confidence. The narrator is worried about her self-image even going as far as describing her hair as being like ‘dry grass in winter.’ Which is an unflattering way to describe one’s hair. If anything the narrator feels not only insecure about how she looks but also lacks confidence. It may also be important that the narrator compares herself physically to how other girls look as this would again play on the theme of confidence or rather the lack of it. The fact that the other girls in the school tease the narrator about her looks (and boys) may also be significant as she is being isolated by her peers due to how she looks and feels about boys. The other girls don’t seem to be able to accept that the narrator has a right to be disinterested when it comes to boys. She is not following anyone’s lead. Though she is insecure about her looks she appears to have the ability to think for herself. There is also a sense that some of the boys in the narrator’s class dislike her due to her appearance and nothing else. If anything Mhlophe may be highlighting how swallow the male can be.
 </p><p>It may also be a case that Mhlophe is exploring the theme of independence. The narrator is not reliant on the opinions of the boys in her class and she also reads books that are not on her curriculum. This could be important as it suggests that despite the insecurity the narrator may feel due to her physical appearance when it comes to others and her academic endeavours she is quite free spirited. Again it seems to be that the narrator is able to think for herself. To be independent of others. It is also interesting that the narrator cannot understand why the young boy wishes to be her boyfriend. She again considers herself to be ugly and unfashionable yet does demonstrate the ability and confidence to become the boy’s girlfriend. If only to spite the other girls in her class. It is also possible that as the narrator finds it difficult to like herself she also finds it difficult to understand that somebody else might like her for who she is.
@@ -208,7 +208,7 @@ class Story2 extends StatelessWidget {
 </p><p>This confidence is more noticeable in the last two paragraphs of the story. No longer is the narrator concerned about how she looks. By running her hands over her face she knows that she is beautiful in her own way. She is also no longer comparing herself to the other girls in her class. The fact that Mhlophe also uses imagery of a birth occurring could also be important because if anything the narrator is being reborn. She is more confident than she has been throughout the story and is no longer concerned about others taunting her over her looks or the fact that she does not play on the sports field. Some critics might also suggest that the hidden independence which the narrator displayed earlier in the story is actually coming to the forefront as the story ends. With the driving factor most likely being the acceptance that the narrator felt not only with Father Fikeni but with those in the village too. For the first time in the story the narrator feels as though she does not have to compete with others, so strong is the confidence she feels within herself. The fact that the narrator wants to read her poem to Father Fikeni may also be of some importance as it suggests that the narrator has something to look forward to. She sees hope for the first time in her life. The cock flapping his wings and crowing at the narrator may also have some symbolic significance. It is possible that Mhlophe is using the cock to symbolise not only excitement (flapping wings) but also the fact that the narrator has found her voice. No longer is she insecure and lacking confidence now that she knows and accepts who she is. Through Father Fikeni’s generosity and the praise poets way with words the narrator has found her voice and is excited about her life.
 </p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -384,7 +384,7 @@ class Story4 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       
 <p>In Next Door by Kurt Vonnegut we have the
 theme of conflict, appearance, guilt,
@@ -515,7 +515,7 @@ We may not always know the truth about
 other people’s relationships.
 </p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -598,7 +598,7 @@ class Story5 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
        <div class="panel">
 <br>
 <p>In Next Door by Kurt Vonnegut we have the
@@ -730,7 +730,7 @@ We may not always know the truth about
 other people’s relationships.
 </p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -812,7 +812,7 @@ class Story6 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       
 <p>In The Fur Coat by Sean O’Faolain we have
 the theme of desire, aspiration,
@@ -934,7 +934,7 @@ The wife of a former political prisoner and
 the mother of children in a fledgling State
 (Ireland).</p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -1017,7 +1017,7 @@ class Story7 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       
 <p>In The Last Breath by Sam Kahiga we have
 the theme of conflict, control, selflessness,
@@ -1139,7 +1139,7 @@ in the story when the narrator’s father
 attempted successfully to control the
 narrator’s life.</p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
@@ -1221,7 +1221,7 @@ class Story8 extends StatelessWidget {
 
                 Html(
   data: """
-    <div>
+    
       
 <p>In Village People by Bessie Head we have
 the theme of poverty, conflict, kindness,
@@ -1374,7 +1374,7 @@ further suggests that Lorato like the other
 characters in the story are living in conflict
 within themselves.</p>
 
-</div>
+
   """,
   //Optional parameters:
   padding: EdgeInsets.all(10.0),
