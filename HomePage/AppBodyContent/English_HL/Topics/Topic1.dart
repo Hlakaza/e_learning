@@ -596,13 +596,13 @@ society just as the Zulu people are seen as lower than in this society.</p>
 
 //Topic 3
 
-class Topic3R1 extends StatefulWidget
+class Topic2R1 extends StatefulWidget
 {
   @override
-  _Topic3R1State createState() => _Topic3R1State();
+  _Topic2R1State createState() => _Topic2R1State();
 }
 
-class _Topic3R1State extends State<Topic3R1> {
+class _Topic2R1State extends State<Topic2R1> {
 
   void _nightmode()
   {
@@ -1015,13 +1015,13 @@ to her than being remembered and having him be sad.</p>
 
 //Topic 4
 
-class Topic4R1 extends StatefulWidget
+class Topic3R1 extends StatefulWidget
 {
   @override
-  _Topic4R1State createState() => _Topic4R1State();
+  _Topic3R1State createState() => _Topic3R1State();
 }
 
-class _Topic4R1State extends State<Topic4R1> {
+class _Topic3R1State extends State<Topic3R1> {
 
   void _nightmode()
   {
@@ -1332,13 +1332,13 @@ unity implicit in ‘people came from all lands‘ (line 16).</p>
 
 //Topic 5
 
-class Topic5R1 extends StatefulWidget
+class Topic4R1 extends StatefulWidget
 {
   @override
-  _Topic5R1State createState() => _Topic5R1State();
+  _Topic4R1State createState() => _Topic4R1State();
 }
 
-class _Topic5R1State extends State<Topic5R1> {
+class _Topic4R1State extends State<Topic4R1> {
 
   void _nightmode()
   {
@@ -1672,13 +1672,13 @@ how is makes time go by slowly.</p>
 
 //Topic 6
 
-class Topic6R1 extends StatefulWidget
+class Topic5R1 extends StatefulWidget
 {
   @override
-  _Topic6R1State createState() => _Topic6R1State();
+  _Topic5R1State createState() => _Topic5R1State();
 }
 
-class _Topic6R1State extends State<Topic6R1> {
+class _Topic5R1State extends State<Topic5R1> {
 
   void _nightmode()
   {
@@ -2237,13 +2237,13 @@ will there ever be, rings true.</p>
 
 //Topic 7
 
-class Topic7R1 extends StatefulWidget
+class Topic6R1 extends StatefulWidget
 {
   @override
-  _Topic7R1State createState() => _Topic7R1State();
+  _Topic6R1State createState() => _Topic6R1State();
 }
 
-class _Topic7R1State extends State<Topic7R1> {
+class _Topic6R1State extends State<Topic6R1> {
 
   void _nightmode()
   {
@@ -2725,13 +2725,13 @@ sounding word).</p>
 
 //Topic 7
 
-class Topic8R1 extends StatefulWidget
+class Topic7R1 extends StatefulWidget
 {
   @override
-  _Topic8R1State createState() => _Topic8R1State();
+  _Topic7R1State createState() => _Topic7R1State();
 }
 
-class _Topic8R1State extends State<Topic8R1> {
+class _Topic7R1State extends State<Topic7R1> {
 
   void _nightmode()
   {
@@ -3311,13 +3311,13 @@ way to allow it to progress unhindered.
 
 //Topic 7
 
-class Topic9R1 extends StatefulWidget
+class Topic8R1 extends StatefulWidget
 {
   @override
-  _Topic9R1State createState() => _Topic9R1State();
+  _Topic8R1State createState() => _Topic8R1State();
 }
 
-class _Topic9R1State extends State<Topic9R1> {
+class _Topic8R1State extends State<Topic8R1> {
 
   void _nightmode()
   {
@@ -3894,13 +3894,13 @@ one would expect from an elegy.]
 
 //Topic 7
 
-class Topic10R1 extends StatefulWidget
+class Topic9R1 extends StatefulWidget
 {
   @override
-  _Topic10R1State createState() => _Topic10R1State();
+  _Topic9R1State createState() => _Topic9R1State();
 }
 
-class _Topic10R1State extends State<Topic10R1> {
+class _Topic9R1State extends State<Topic9R1> {
 
   void _nightmode()
   {
@@ -4312,13 +4312,13 @@ speaker and his inability to resist.
 
 //Topic 7
 
-class Topic11R1 extends StatefulWidget
+class Topic10R1 extends StatefulWidget
 {
   @override
-  _Topic11R1State createState() => _Topic11R1State();
+  _Topic10R1State createState() => _Topic10R1State();
 }
 
-class _Topic11R1State extends State<Topic11R1> {
+class _Topic10R1State extends State<Topic10R1> {
 
   void _nightmode()
   {
@@ -4785,13 +4785,13 @@ religion and the power it has to clamp down on pleasure.</p>
 
 //Topic 7
 
-class Topic12R1 extends StatefulWidget
+class Topic11R1 extends StatefulWidget
 {
   @override
-  _Topic12R1State createState() => _Topic12R1State();
+  _Topic11R1State createState() => _Topic11R1State();
 }
 
-class _Topic12R1State extends State<Topic12R1> {
+class _Topic11R1State extends State<Topic11R1> {
 
   void _nightmode()
   {

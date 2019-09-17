@@ -319,28 +319,30 @@ class TopicButton extends StatelessWidget
           break;
           case "12" : topic_route = Topic11R1(); //HomePage_TOUR();
           break;
-          //Topic 3
           case "13" : topic_route = Topic12R1(); //HomePage_TOUR();
           break;
-          case "14" : topic_route = Topic2R3(); //HomePage_TOUR();
+          
+          case "14" : topic_route = Topic1R2(); //HomePage_TOUR();
           break;
-          case "15" : topic_route = Topic3R3(); //HomePage_TOUR();
+          case "15" : topic_route = Topic2R2(); //HomePage_TOUR();
           break;
-          case "16" : topic_route = Topic4R3(); //HomePage_TOUR();
+          case "16" : topic_route = Topic3R2(); //HomePage_TOUR();
           break;
-          case "17" : topic_route = Topic5R3(); //HomePage_TOUR();
+          case "17" : topic_route = Topic4R2(); //HomePage_TOUR();
           break;
           //Topic 4
-          case "18" : topic_route = Topic1R4(); //HomePage_TOUR();
+          case "18" : topic_route = Topic5R2(); //HomePage_TOUR();
           break;
-          case "19" : topic_route = Topic2R4(); //HomePage_TOUR();
+          case "19" : topic_route = Topic6R2(); //HomePage_TOUR();
           break;
-          case "20" : topic_route = Topic3R4(); //HomePage_TOUR();
+          case "20" : topic_route = Topic7R2(); //HomePage_TOUR();
           break;
-          case "21" : topic_route = Topic4R4(); //HomePage_TOUR();
+          case "21" : topic_route = Topic8R2(); //HomePage_TOUR();
           break;
-          case "22" : topic_route = Topic5R4(); //HomePage_TOUR();
+          case "22" : topic_route = Topic9R2(); //HomePage_TOUR();
           break;
+
+
           case "23" : topic_route = Topic6R4(); //HomePage_TOUR();
           break;
           case "24" : topic_route = Topic7R4(); //HomePage_TOUR();
