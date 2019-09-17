@@ -5031,8 +5031,8 @@ was saved.</p>
 
 <p><b>2. Relate the physical decline of Felix Randal.</b></p>&gt;
 
-<p>From being a strapping ‘hardy-handsome’ (line 2) man ‘powerful amidst peers’
-(line 13), Felix Randal became physically weak ‘Pining, pining’ (line 3) as he
+<p>From being a strapping ‘hardy-handsome’ line 2 man ‘powerful amidst peers’
+line 13, Felix Randal became physically weak ‘Pining, pining’ line 3 as he
 succumbed to the illness that ‘broke him’ (line 5).</p>
 
 <p><b>3. Discuss the connotations of the word ‘mould’ (line 2) and its application
@@ -5149,13 +5149,13 @@ and his pain engages the reader.
 }
 
 
-class Topic13R1 extends StatefulWidget
+class Topic12R1 extends StatefulWidget
 {
   @override
-  _Topic13R1State createState() => _Topic13R1State();
+  _Topic12R1State createState() => _Topic12R1State();
 }
 
-class _Topic13R1State extends State<Topic13R1> {
+class _Topic12R1State extends State<Topic12R1> {
 
   void _nightmode()
   {
