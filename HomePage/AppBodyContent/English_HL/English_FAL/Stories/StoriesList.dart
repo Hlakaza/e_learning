@@ -120,9 +120,9 @@ has a lot of novels to her credit, including The Joys of Motherhood, The Bride P
     </div>
   """,
   //Optional parameters:
-  padding: EdgeInsets.all(8.0),
+  padding: EdgeInsets.all(10.0),
   backgroundColor: Colors.white70,
-  defaultTextStyle: TextStyle(fontFamily: 'serif'),
+  defaultTextStyle: TextStyle(fontFamily: 'NunitoSans-Regular'),
   linkStyle: const TextStyle(
     color: Colors.redAccent,
   ),
