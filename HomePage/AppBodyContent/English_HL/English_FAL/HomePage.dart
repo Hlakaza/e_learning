@@ -49,7 +49,7 @@ class English_FAL extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("English Home Langauge - Animal Farm",
+                  new Text("English Additional Langauge",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: TopicButtonArray().ColorTheme[0],
