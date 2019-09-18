@@ -612,11 +612,11 @@ class TopExtraButton extends StatelessWidget
               ),
               onPressed: () {
                 
-        switch (topic_route)
+        switch (ButtonRoute)
         {
-          case "0" : topic_route = Dictionary(); //HomePage_TOUR();
+          case "0" : ButtonRoute = Dictionary(); //HomePage_TOUR();
           break;
-          case "1" : topic_route = Study_tips(); //HomePage_TOUR();
+          case "1" : ButtonRoute = Study_tips(); //HomePage_TOUR();
           break;
         }
 
