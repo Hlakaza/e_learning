@@ -134,7 +134,7 @@ Entry('atom\n The smallest unit of a chemical element, which, if broken down fur
 Entry('attract\n To bring something closer'),
 Entry('average\n Mathematics: The sum of parts divided by the quantity of parts Jn common use: neither very good, strong, etc., but also neither very weak, bad, etc; the middle Jn Physical Science and Mathematics: if you are asked to find the average, you always have to calculate it using the information you have For example, the average of (1;2;3) is 2, because (1+2+3)/3 = 2See also mean, median and mode.'), 
 Entry('avogadro (constant or number)\n 6,023 Ã— 1023 particles; one moleSee mole and mol.'),
-Entry('axis (sing), axes (pl, pronounced â€œakseezâ€)\n A line along which points can be plotted (placed), showing how far they are from a central point, called the originSee origin,â€œVertical axisâ€ or â€œy-axisâ€ refers to how high up a point is above the origin (or how far below)'),â€œHorizontal axisâ€ or â€œx-axisâ€ refers to how far left or right a point is away from the origin
+Entry('axis (sing), axes (pl, pronounced â€œakseezâ€)\n A line along which points can be plotted (placed), showing how far they are from a central point, called the originSee origin,â€œVertical axisâ€ or â€œy-axisâ€ refers to how high up a point is above the origin (or how far below),â€œHorizontal axisâ€ or â€œx-axisâ€ refers to how far left or right a point is away from the origin'),
 
     ],
   ),
@@ -432,7 +432,7 @@ Entry('metal\n A substance which is malleable (can be hammered flat), is ductile
 Entry('meth-\n Having one carbonSee formic'),
 Entry('methylated\n Having had a single carbon or methyl group added'),
 Entry('metric\n A measurement system, using a base of 10 (i.eAll the units are divisible by 10) The USA uses something known as the Imperial system, which is not used in science The Imperial system is based on 12 Examples: 2,54 cm (metric) = 1 inch (imperial), 1 foot = 12 inches = approx, 30 cm; 1 metre = 100 cm,1 Fl.Oz (fluid ounce) = approx 30 mâ„“'),
-Entry('microscopic\n Too small to be seen by the unaided human eye.')
+Entry('microscopic\n Too small to be seen by the unaided human eye.'),
 
 
 Entry('minimum\n The smallest amount possible'),
