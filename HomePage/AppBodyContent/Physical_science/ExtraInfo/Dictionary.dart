@@ -42,12 +42,12 @@ class Dictionary extends StatelessWidget {
                   onPressed: () => Navigator.pop(context),
                 ),
               ),
-              backgroundColor: Colors.purple,
+              backgroundColor: TopicButtonArray().ColorTheme[2],
               elevation: 0.0,
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Dictionary - Life Science",
+                  new Text("Dictionary - Physical Science",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.white,
@@ -57,7 +57,7 @@ class Dictionary extends StatelessWidget {
                   Container(
                     //margin: EdgeInsets.only(right: 5.0),
                     child: Image.asset(
-                      "assets/subject_icons/dna.png",
+                      "assets/subject_icons/physical_science.png",
                       width: 30.0,
                       height: 30.0,
                     ),

@@ -586,32 +586,8 @@ class TopExtraButton extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return new Stack(
-      children: <Widget>[
-        new Container(
-          alignment: Alignment.center,
-          width: 70.0,
-          height: 70.0,
-          decoration: new BoxDecoration(
-            border: new Border.all(color: TopicButtonArray().ColorTheme[1]),
-            borderRadius: new BorderRadius.all(Radius.circular(20.0)),
-            color: Colors.white,
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black12,
-                offset: Offset(0.0,  13.0, ),
-                blurRadius: 5.0,
-              ),
-            ],
-          ),
-          child: new IconButton(
-              icon: Icon(
-                ButtonIcon,
-                color: TopicButtonArray().ColorTheme[1],
-                size: 25.0,
-              ),
-              onPressed: () {
-                
+    return InkWell(
+      onTap: () {
         switch (ButtonRoute)
         {
           case "0" : ButtonRoute = Dictionary(); //HomePage_TOUR();
@@ -619,39 +595,75 @@ class TopExtraButton extends StatelessWidget
           case "1" : ButtonRoute = Study_tips(); //HomePage_TOUR();
           break;
         }
+        Navigator.push(context, PageTransition(type: PageTransitionType.rightToLeftWithFade, child: ButtonRoute));
+      },
+      child: new Stack(
+        children: <Widget>[
+          new Container(
+            alignment: Alignment.center,
+            width: 70.0,
+            height: 70.0,
+            decoration: new BoxDecoration(
+              border: new Border.all(color: TopicButtonArray().ColorTheme[1]),
+              borderRadius: new BorderRadius.all(Radius.circular(20.0)),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black12,
+                  offset: Offset(0.0,  13.0, ),
+                  blurRadius: 5.0,
+                ),
+              ],
+            ),
+            child: new IconButton(
+                icon: Icon(
+                  ButtonIcon,
+                  color: TopicButtonArray().ColorTheme[1],
+                  size: 25.0,
+                ),
+                onPressed: () {
 
-                }),
-        ),
-        new Container(
-          padding:EdgeInsets.all(5.0),
-          margin: EdgeInsets.only(top: 60.0,left: 10.0),
-          alignment: Alignment.center,
-          width: 50.0,
-          height: 20.0,
-          decoration: new BoxDecoration(
-            border: new Border.all(color: TopicButtonArray().ColorTheme[1]),
-            borderRadius: new BorderRadius.all(Radius.circular(10.0)),
-            color: Colors.white,
-            boxShadow: [
-              BoxShadow(
-                color: TopicButtonArray().ColorThemeBoxshadow[1],
-                offset: Offset(0.0,  5.0),
-                blurRadius: 5.0,
-              ),
-            ],
+          switch (ButtonRoute)
+          {
+            case "0" : ButtonRoute = Dictionary(); //HomePage_TOUR();
+            break;
+            case "1" : ButtonRoute = Study_tips(); //HomePage_TOUR();
+            break;
+          }
+          Navigator.push(context, PageTransition(type: PageTransitionType.rightToLeftWithFade, child: ButtonRoute));
+                  }),
           ),
-          child: Text("$ButtonTitle",
-            textAlign: TextAlign.center,
-            maxLines: 1,
-            softWrap: false,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              fontSize: 9.0,
-              color: TopicButtonArray().ColorTheme[3],
+          new Container(
+            padding:EdgeInsets.all(5.0),
+            margin: EdgeInsets.only(top: 60.0,left: 10.0),
+            alignment: Alignment.center,
+            width: 50.0,
+            height: 20.0,
+            decoration: new BoxDecoration(
+              border: new Border.all(color: TopicButtonArray().ColorTheme[1]),
+              borderRadius: new BorderRadius.all(Radius.circular(10.0)),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: TopicButtonArray().ColorThemeBoxshadow[1],
+                  offset: Offset(0.0,  5.0),
+                  blurRadius: 5.0,
+                ),
+              ],
+            ),
+            child: Text("$ButtonTitle",
+              textAlign: TextAlign.center,
+              maxLines: 1,
+              softWrap: false,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontSize: 9.0,
+                color: TopicButtonArray().ColorTheme[3],
+              ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
