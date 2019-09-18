@@ -96,7 +96,7 @@ class HomePage_PS extends StatelessWidget {
                   height: 40.0,
                 ),
 
-                new Container(
+                /*new Container(
                   decoration: new BoxDecoration(
                     color: Colors.transparent,
                   ),
@@ -187,7 +187,7 @@ class HomePage_PS extends StatelessWidget {
                       ),
                     ),
                   ),
-                ), //Start Video tutorial Button Container
+                ),*/ //Start Video tutorial Button Container
 
                 new SizedBox(
                   height: 20.0,
