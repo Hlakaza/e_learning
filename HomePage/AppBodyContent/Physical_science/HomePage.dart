@@ -92,9 +92,7 @@ class HomePage_PS extends StatelessWidget {
                     ),//Bottom Top Small topic information
                   ],
                 ),
-                new SizedBox(
-                  height: 40.0,
-                ),
+                
 
                 /*new Container(
                   decoration: new BoxDecoration(
@@ -189,7 +187,10 @@ class HomePage_PS extends StatelessWidget {
                   ),
                 ),*/ //Start Video tutorial Button Container
 
-                
+                new SizedBox(
+                  height: 20.0,
+                ),
+
                 new Container(
                   padding: EdgeInsets.all(10.0),
                   height : 120.0,
