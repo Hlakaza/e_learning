@@ -186,7 +186,8 @@ class HomePage_Pure extends StatelessWidget {
                       ),
                     ),
                   ),
-                ), * ///Start Video tutorial Button Container 
+                ), */ 
+                //Start Video tutorial Button Container 
 
                 new SizedBox(
                   height: 20.0,

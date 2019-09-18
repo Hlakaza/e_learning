@@ -18,6 +18,8 @@ import '../Topics/Topic13.dart';
 
 //PastPaper Route
 import '../Pastpapers/HPPastPaper.dart';
+import '../ExtraInfo/Study_Tips.dart';
+import '../ExtraInfo/Dictionary.dart';
 
 class TopicButtonArray {
 
@@ -608,7 +610,17 @@ class TopExtraButton extends StatelessWidget
                 color: TopicButtonArray().ColorTheme[1],
                 size: 25.0,
               ),
-              onPressed: () {print("1");}),
+              onPressed: () {
+                
+        switch (topic_route)
+        {
+          case "0" : topic_route = Dictionary(); //HomePage_TOUR();
+          break;
+          case "1" : topic_route = Study_tips(); //HomePage_TOUR();
+          break;
+        }
+
+                }),
         ),
         new Container(
           padding:EdgeInsets.all(5.0),
