@@ -104,37 +104,6 @@ class extraHscrollButtons extends StatelessWidget
                 new SizedBox(
                   width: 10.0,
                 ),
-                new Container(
-                  padding: const EdgeInsets.all(15.0),
-                  child: new Text(
-                    'Motivation',
-                    style: new TextStyle(
-                        fontSize: 12.0,
-                        fontFamily: "NunitoSans-Regular",
-                        fontWeight: FontWeight.bold,
-                        color: Colors.redAccent),
-                  ),
-                  decoration: new BoxDecoration(
-                    borderRadius: new BorderRadius.all(const Radius.circular(20.0)),
-                    color: Colors.red,
-                    gradient: new LinearGradient(
-                        colors: [Colors.white, Colors.white],
-                        begin: const FractionalOffset(0.5, 0.0),
-                        end: const FractionalOffset(0.0, 0.5),
-                        stops: [0.0, 1.0],
-                        tileMode: TileMode.clamp),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black12,
-                        offset: Offset(5.0,  1.0),
-                        blurRadius: 15.0,
-                      ),
-                    ],
-                  ),
-                ),
-                new SizedBox(
-                  width: 10.0,
-                ),
 
                 InkWell(
                   onTap: () {
