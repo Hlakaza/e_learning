@@ -206,9 +206,9 @@ class HomePage_PS extends StatelessWidget {
                           SizedBox(width: 15.0,),
                           TopExtraButton("Dictionary",TopicButtonArray().TopExtraButtonIcons[0],"0"),
                           SizedBox(width: 15.0,),
-                          TopExtraButton("Study Tips",TopicButtonArray().TopExtraButtonIcons[1],"0"),
+                          TopExtraButton("Study Tips",TopicButtonArray().TopExtraButtonIcons[1],"1"),
                           SizedBox(width: 15.0,),
-                          TopExtraButton("MTG",TopicButtonArray().TopExtraButtonIcons[5],"0"),
+                          TopExtraButton("MTG",TopicButtonArray().TopExtraButtonIcons[5],"2"),
                         ],
                       ),
 
