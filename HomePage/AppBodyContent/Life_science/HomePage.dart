@@ -315,13 +315,6 @@ class _HomePage_LSState extends State<HomePage_LS>
                                   SizedBox(width: 15.0,),
                                   TopExtraButton("Study Tips",TopicButtonArray().TopExtraButtonIcons[1],"1"),
                                   SizedBox(width: 15.0,),
-                                  TopExtraButton("MTG",TopicButtonArray().TopExtraButtonIcons[5],"0"),
-                                  SizedBox(width: 15.0,),
-                                  TopExtraButton("Diagrams",TopicButtonArray().TopExtraButtonIcons[2],"0"),
-                                  SizedBox(width: 15.0,),
-                                  TopExtraButton("Final Exam",TopicButtonArray().TopExtraButtonIcons[3],"0"),
-                                  SizedBox(width: 15.0,),
-                                  TopExtraButton("Study Guide",TopicButtonArray().TopExtraButtonIcons[4],"0"),
                                 ],
                               ),
 
