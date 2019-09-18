@@ -647,13 +647,13 @@ class _HomePage_LSState extends State<HomePage_LS>
                                 new Row(
                                   children: <Widget>[
 
-                                    new TopicButton("${TopicButtonArray().TopicImage[72]}", "${TopicButtonArray().TopicTitle[72]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[73]}", "${TopicButtonArray().TopicTitle[73]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[74]}", "${TopicButtonArray().TopicTitle[74]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[75]}", "${TopicButtonArray().TopicTitle[75]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[76]}", "${TopicButtonArray().TopicTitle[76]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[77]}", "${TopicButtonArray().TopicTitle[77]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[78]}", "${TopicButtonArray().TopicTitle[78]}", "0"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[72]}", "${TopicButtonArray().TopicTitle[72]}", "72"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[73]}", "${TopicButtonArray().TopicTitle[73]}", "73"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[74]}", "${TopicButtonArray().TopicTitle[74]}", "74"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[75]}", "${TopicButtonArray().TopicTitle[75]}", "75"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[76]}", "${TopicButtonArray().TopicTitle[76]}", "76"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[77]}", "${TopicButtonArray().TopicTitle[77]}", "77"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[78]}", "${TopicButtonArray().TopicTitle[78]}", "78"),
                                     SizedBox(width: 20.0),
 
                                   ],
