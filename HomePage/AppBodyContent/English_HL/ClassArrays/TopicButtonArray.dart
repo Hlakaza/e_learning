@@ -515,61 +515,6 @@ class TopicButton extends StatelessWidget
 
 }
 
-class PastPaperButton extends StatelessWidget
-{
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return new InkWell(
-      onTap : () {
-        Navigator.push(context, PageTransition(type: PageTransitionType.downToUp, child: HomepagePP()));
-      },
-      child: new Stack(
-        children: <Widget>[
-          new Container(
-            height: 100.0,
-            width: 80.0,
-            //color: Colors.white,
-            decoration: BoxDecoration(
-              boxShadow: <BoxShadow>[
-                new BoxShadow(
-                  color: Colors.black12,
-                  blurRadius: 10.0,
-                  offset: new Offset(0.0, 5.0),
-                ),
-              ],
-            ),
-            child: Image.asset(
-              "assets/ui_assets/past_paper.jpg",
-              fit:BoxFit.fill,
-              height: double.infinity,
-              width: double.infinity,
-              alignment: Alignment.center,
-            ),
-          ),
-          new Container(
-            alignment: Alignment.center,
-            margin: EdgeInsets.only(top: 78.0),
-            width: 80,
-            height: 20.0,
-            color: TopicButtonArray().ColorTheme[0],
-            child: new Text("Past Papers",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontFamily: "NunitoSans-Regular",
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-                fontSize: 10.0,
-              ),
-            ),
-          )
-        ],
-      ),
-    );
-  }
-
-}
-
 class TopExtraButton extends StatelessWidget
 {
 

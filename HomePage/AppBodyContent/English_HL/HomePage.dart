@@ -57,32 +57,38 @@ class HomePage_EHL extends StatelessWidget {
                   height: 50.0,
                 ),
 
-                new Container(
-              child: new Padding(
-                padding: const EdgeInsets.only(left: 10.0),
-                child: new Text("${TopicButtonArray().subjectName[0]}",
-                  textAlign: TextAlign.start,
-                  style: TextStyle(
-                    fontSize: 25.0,
-                    //letterSpacing: 2.0,
-                    fontFamily: "NunitoSans-ExtraBold",
-                    fontWeight: FontWeight.w900,
-                    foreground: Paint()..shader = linearGradient,
-                  ),
+                new Column(
+                  children: <Widget> [
+                    new Container(
+                      child: new Padding(
+                        padding: const EdgeInsets.only(left: 10.0),
+                        child: new Text("${TopicButtonArray().subjectName[0]}",
+                          textAlign: TextAlign.start,
+                          style: TextStyle(
+                            fontSize: 40.0,
+                            letterSpacing: 3.0,
+                            fontFamily: "NunitoSans-ExtraBold",
+                            fontWeight: FontWeight.w900,
+                            foreground: Paint()..shader = linearGradient,
+                          ),
+                        ),
+                      ),
+                    ), //Top Large Subject Title
+                    new Padding(
+                      padding: const EdgeInsets.only(left: 10.0),
+                      child: new Text("${TopicButtonArray().subjectName[1]}",
+                        style: TextStyle(
+                          fontSize: 13.0,
+                          //letterSpacing: 2.0,
+                          fontFamily: "Comfortaa",
+                          color: Colors.grey.shade800,
+                        ),
+                      ),
+                    ),//Bottom Top Small topic information
+                  ],
                 ),
-              ),
-            ), //Top Large Subject Title
-                new Padding(
-                  padding: const EdgeInsets.only(left: 10.0),
-                  child: new Text("${TopicButtonArray().subjectName[1]}",
-                    style: TextStyle(
-                      fontSize: 13.0,
-                      //letterSpacing: 2.0,
-                      fontFamily: "Comfortaa",
-                      color: Colors.grey.shade800,
-                    ),
-                  ),
-                ),//Bottom Top Small topic information
+
+
 
 
                 new SizedBox(

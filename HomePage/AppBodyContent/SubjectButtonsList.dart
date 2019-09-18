@@ -1319,7 +1319,7 @@ class SubjectButtons extends StatelessWidget
 
 
                   
-                  Stack(
+                  /*Stack(
                     children: <Widget>[
 
                       Container(
@@ -1522,7 +1522,7 @@ class SubjectButtons extends StatelessWidget
 
                     ],
 
-                  ),
+                  ),*/
 
 
                 ],

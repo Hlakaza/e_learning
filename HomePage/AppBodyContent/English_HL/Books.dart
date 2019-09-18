@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'ClassArrays/TopicButtonArray.dart';
-import 'Pastpapers/PP2018/p2018MayPaper0.dart';
 import 'package:page_transition/page_transition.dart';
 
 
@@ -143,8 +142,8 @@ class _BOOKSPPState extends State<BOOKSPP> {
           var pastpaperRoute;
           switch(index)
           {
-            case 0 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Paper17()));
-            break;
+            //case 0 : Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: Paper17()));
+            //break;
             default : print("You pressed $index page");
           }
 
