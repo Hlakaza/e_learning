@@ -45,7 +45,7 @@ class Study_tips extends StatelessWidget {
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  new Text("Study Tips - Life Science",
+                  new Text("Study Tips - Physical Science",
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.white,
@@ -55,7 +55,7 @@ class Study_tips extends StatelessWidget {
                   Container(
                     //margin: EdgeInsets.only(right: 5.0),
                     child: Image.asset(
-                      "assets/subject_icons/dna.png",
+                      "assets/subject_icons/physical_science.png",
                       width: 30.0,
                       height: 30.0,
                     ),
