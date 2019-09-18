@@ -91,7 +91,7 @@ class HomePage_Pure extends StatelessWidget {
                 ), //Top Large Subject Title
 
 
-                new SizedBox(
+               /* new SizedBox(
                   height: 40.0,
                 ),
 
@@ -186,7 +186,7 @@ class HomePage_Pure extends StatelessWidget {
                       ),
                     ),
                   ),
-                ), //Start Video tutorial Button Container
+                ), * ///Start Video tutorial Button Container 
 
                 new SizedBox(
                   height: 20.0,

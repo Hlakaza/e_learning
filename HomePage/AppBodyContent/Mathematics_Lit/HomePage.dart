@@ -179,7 +179,7 @@ class _HomePage_LitState extends State<HomePage_Lit>
                     ),
                   ),
 
-                  new SizedBox(
+                  /*new SizedBox(
                     height: sequenceAnimation['sized-Box-2'].value,
                   ),
 
@@ -277,7 +277,7 @@ class _HomePage_LitState extends State<HomePage_Lit>
                         ),
                       ),
                     ),
-                  ), //Start Video tutorial Button Container
+                  ), //Start Video tutorial Button Container */
 
                   new SizedBox(
                     height: sequenceAnimation['sized-Box-3'].value,
