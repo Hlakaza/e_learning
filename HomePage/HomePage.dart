@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
     await prefs.setInt('startupNumber', currentStartupNumber);
 
     if (currentStartupNumber <= 1) {
-      setState(() => WelcomePage(context);
+      setState(() => WelcomePage(context));
 
       // Reset only if you want to
       await _resetCounter();
@@ -118,7 +118,7 @@ WelcomePage(BuildContext context) {
   // set up the AlertDialog
   AlertDialog alert = AlertDialog(
     title: Text("Welcome To Matric Live"),
-    content: Text("We appreciate you downloading this app, and it assist you to do well in school. Remember with this app you are a click away from a bachelor!!! :)"),
+    content: Text("We appreciate you downloading this app, and hope that it assists you throughtout the year. Remember with this app you are a click away from a bachelor!!! :)"),
     actions: [
       okButton,
     ],
