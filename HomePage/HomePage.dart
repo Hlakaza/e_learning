@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     await prefs.setInt('startupNumber', currentStartupNumber);
 
-    if (currentStartupNumber == <= 1) {
+    if (currentStartupNumber <= 1) {
       setState(() => WelcomePage(context);
 
       // Reset only if you want to
