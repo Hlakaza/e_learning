@@ -47,12 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
     await prefs.setInt('startupNumber', currentStartupNumber);
 
     if (currentStartupNumber == 3) {
-      setState(() => _haveStarted3Times = '$currentStartupNumber Times Completed');
+      setState(() => _haveStarted3Times = 'done');
 
       // Reset only if you want to
       await _resetCounter();
     } else {
-      setState(() => _haveStarted3Times = '$currentStartupNumber Times started the app');
+      setState(() => _haveStarted3Times = '$currentStartupNumber');
     }
   }
 
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                new Text("$_haveStarted3Times (Grade 12 e-Learning)",
+                new Text("Matric Live (Grade 12 e-Learning)",
                     style: TextStyle(
                       fontSize: 14.0,
                       color: Colors.black,
