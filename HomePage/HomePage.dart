@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:simple_animations/simple_animations.dart';
 
 import 'AppBody.dart'; //importing the body content of the app
 import 'Drawer.dart';
@@ -289,6 +290,7 @@ class _NameRequestPageState extends State<NameRequestPage> {
         ),
         );
       },
+    ),
     );
   }
 }
