@@ -42,13 +42,12 @@ class _MyHomePageState extends State<MyHomePage> {
     {
       setState() {
         print("Started more than 3 times");
-
-        await _resetCounter();//For debug only
-      } else {
+      } 
+      await _resetCounter();//For debug only
+    } else {
         setState() {
           print("Not yet tried app");
         }
-      }
     }
   }
 
