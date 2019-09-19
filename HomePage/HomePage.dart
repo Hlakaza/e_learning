@@ -42,14 +42,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (currentStartupNumber == 3)
     {
-      setState() {
-        used = "Yes";
-      } 
+      setState(() => used = "Yes");
       await _resetCounter();//For debug only
     } else {
-        setState() {
-          used = "No";
-        }
+        setState(() => used = "No");
     }
   }
 
