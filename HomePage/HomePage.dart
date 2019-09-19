@@ -107,3 +107,28 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 
+WelcomePage(BuildContext context) {
+
+  // set up the button
+  Widget okButton = FlatButton(
+    child: Text("OK"),
+    onPressed: () { Navigator.pop(context); },
+  );
+
+  // set up the AlertDialog
+  AlertDialog alert = AlertDialog(
+    title: Text("Welcome To Matric Live"),
+    content: Text("We appreciate you downloading this app, and it assist you to do well in school. Remember with this app you are a click away from a bachelor!!! :)"),
+    actions: [
+      okButton,
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
+}
