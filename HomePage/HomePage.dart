@@ -161,11 +161,139 @@ class _NameRequestPageState extends State<NameRequestPage> {
   Widget build(BuildContext context) {
     // TODO: implement build
 
-
+    final tween = MultiTrackTween([
+      Track("color1").add(Duration(seconds: 3),
+          ColorTween(begin: Color(0xffD38312), end: Colors.lightBlue.shade900)),
+      Track("color2").add(Duration(seconds: 3),
+          ColorTween(begin: Color(0xffA83279), end: Colors.blue.shade600))
+    ]);
 
     return new Scaffold(
 
-      body: new Container(
+      body: ControlledAnimation(
+      playback: Playback.MIRROR,
+      tween: tween,
+      duration: tween.duration,
+      builder: (context, animation) {
+        return Container(
+          decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [animation["color1"], animation["color2"]])),
+          padding: const EdgeInsets.all(20.0),
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+
+            Center(
+              child: Image.asset("assets/app_logo/Matric-Live-icon.png",
+                width: 75.0,
+                height: 75.0,
+              ),
+            ),
+
+            SizedBox(
+              height: 20.0,
+            ),
+
+            Text("Nice to meet you what do your friends call you ?",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: "Quicksand",
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.w700
+              ),
+            ),
+
+            TextField(
+              cursorColor: Colors.white,
+              autocorrect: false,
+              controller: myController,
+              style: TextStyle(
+                color: Colors.white70,
+                fontFamily: "Avenir",
+                fontSize: 20.0,
+                fontWeight: FontWeight.w300,
+              ),
+              decoration: InputDecoration(
+                  counterStyle: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                  ),
+                  hintStyle: TextStyle(
+                    color: Colors.white70,
+                    fontFamily: "Avenir",
+                    fontSize: 20.0,
+                  ),
+                  border: InputBorder.none,
+                  hintText: 'They call me...'
+              ),
+              maxLength: 32,
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+
+                Text("YOUR NICKNAME",
+                  style: TextStyle(
+                    color: Colors.white54,
+                    fontFamily: "Avenir",
+                    fontSize: 12.0,
+                    fontWeight: FontWeight.w100,
+                  ),
+                ),
+
+                Text(myController.text,
+                  style: TextStyle(
+                    color: Colors.white54,
+                    fontFamily: "Avenir",
+                    fontSize: 12.0,
+                    fontWeight: FontWeight.w100,
+                  ),
+                ),
+
+              ],
+            ),
+
+            SizedBox(
+              height: 50.0,
+            ),
+
+            Center(
+              child: RaisedButton(
+                elevation: 0.5,
+                splashColor: Colors.orange,
+                focusColor: Colors.deepOrange,
+                color: Colors.deepOrange,
+                onPressed: (){
+                  //saveToFile();
+                  print("Added User Name as " + myController.text);
+                  //Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ChooseColor()));
+                },
+                child: Text("Proceed...",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: "Avenir",
+                    fontSize: 15.0,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            ),
+
+          ],
+        ),
+        );
+      },
+    );
+  }
+}
+
+/*new Container(
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           gradient: new LinearGradient(
@@ -283,6 +411,4 @@ class _NameRequestPageState extends State<NameRequestPage> {
           ],
         ),
       ),
-    );
-  }
-}
+      */
