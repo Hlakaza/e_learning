@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
     await prefs.setInt('startupNumber', currentStartupNumber);
 
     if (currentStartupNumber <= 1) {
-      setState(() => WelcomePage(context));
+      setState(() => Navigator.push(context, MaterialPageRoute(builder: (context) => NameRequestPage())););
 
       // Reset only if you want to
       await _resetCounter();
@@ -107,6 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 
+
 WelcomePage(BuildContext context) {
 
   // set up the button
@@ -131,4 +132,155 @@ WelcomePage(BuildContext context) {
       return alert;
     },
   );
+}
+
+
+class NameRequestPage extends StatefulWidget {
+
+
+  @override
+  _NameRequestPageState createState() => _NameRequestPageState();
+}
+
+class _NameRequestPageState extends State<NameRequestPage> {
+
+  //final MyStorage storage;
+
+  final myController = TextEditingController();
+
+  String nickname;
+
+  void dispose() {
+    // Clean up the controller when the widget is disposed.
+    myController.dispose();
+    super.dispose();
+  }
+
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+
+
+
+    return new Scaffold(
+
+      body: new Container(
+        width: MediaQuery.of(context).size.width,
+        decoration: BoxDecoration(
+          gradient: new LinearGradient(
+              colors: [Colors.deepPurple, Colors.purple],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              //stops: [0.0, 1.0],
+              tileMode: TileMode.clamp),/**/
+        ),
+        //lignment: Alignment.bottomLeft,
+        padding: const EdgeInsets.all(20.0),
+        child: new Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+
+            Image.asset("assets/hi-face-speech-bubble.png",
+              width: 50.0,
+              height: 50.0,
+            ),
+
+            SizedBox(
+              height: 20.0,
+            ),
+
+            Text("Nice to meet you what do your friends call you ?",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: "Quicksand",
+                  fontSize: 25.0,
+                  fontWeight: FontWeight.w700
+              ),
+            ),
+
+            TextField(
+              cursorColor: Colors.white,
+              autocorrect: false,
+              controller: myController,
+              style: TextStyle(
+                color: Colors.white70,
+                fontFamily: "Avenir",
+                fontSize: 20.0,
+                fontWeight: FontWeight.w300,
+              ),
+              decoration: InputDecoration(
+                  counterStyle: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                  ),
+                  hintStyle: TextStyle(
+                    color: Colors.white70,
+                    fontFamily: "Avenir",
+                    fontSize: 20.0,
+                  ),
+                  border: InputBorder.none,
+                  hintText: 'They call me...'
+              ),
+              maxLength: 32,
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+
+                Text("YOUR NICKNAME",
+                  style: TextStyle(
+                    color: Colors.white54,
+                    fontFamily: "Avenir",
+                    fontSize: 12.0,
+                    fontWeight: FontWeight.w100,
+                  ),
+                ),
+
+                Text(myController.text,
+                  style: TextStyle(
+                    color: Colors.white54,
+                    fontFamily: "Avenir",
+                    fontSize: 12.0,
+                    fontWeight: FontWeight.w100,
+                  ),
+                ),
+
+              ],
+            ),
+
+            SizedBox(
+              height: 50.0,
+            ),
+
+            Center(
+              child: RaisedButton(
+                elevation: 0.5,
+                splashColor: Colors.deepPurple,
+                focusColor: Colors.white,
+                color: Colors.deepPurple,
+                onPressed: (){
+                  //saveToFile();
+                  print("Added User Name as " + myController.text);
+                  //Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ChooseColor()));
+                },
+                child: Text("Proceed...",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: "Avenir",
+                    fontSize: 15.0,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            ),
+
+          ],
+        ),
+      ),
+    );
+  }
 }
