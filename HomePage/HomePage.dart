@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     await prefs.setInt('startupNumber', currentStartupNumber);
 
-    if (currentStartupNumber == 3) {
-      setState(() => _haveStarted3Times = 'done');
+    if (currentStartupNumber == <= 1) {
+      setState(() => WelcomePage(context);
 
       // Reset only if you want to
       await _resetCounter();
