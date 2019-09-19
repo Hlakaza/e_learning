@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     await prefs.setInt('startupNumber', currentStartupNumber);
 
-    if (currentStartupNumber <= 1) {
-      setState(() => Navigator.push(context, MaterialPageRoute(builder: (context) => NameRequestPage())););
+    if (currentStartupNumber != 1) {
+      setState(() => Navigator.push(context, MaterialPageRoute(builder: (context) => NameRequestPage())),);
 
       // Reset only if you want to
       await _resetCounter();
@@ -169,7 +169,7 @@ class _NameRequestPageState extends State<NameRequestPage> {
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           gradient: new LinearGradient(
-              colors: [Colors.deepPurple, Colors.purple],
+              colors: [Colors.deepOrange, Colors.orange],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               //stops: [0.0, 1.0],
@@ -182,9 +182,11 @@ class _NameRequestPageState extends State<NameRequestPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
 
-            Image.asset("assets/hi-face-speech-bubble.png",
-              width: 50.0,
-              height: 50.0,
+            Center(
+              child: Image.asset("assets/app_logo/Matric-Live-icon.png",
+                width: 75.0,
+                height: 75.0,
+              ),
             ),
 
             SizedBox(
@@ -259,9 +261,9 @@ class _NameRequestPageState extends State<NameRequestPage> {
             Center(
               child: RaisedButton(
                 elevation: 0.5,
-                splashColor: Colors.deepPurple,
-                focusColor: Colors.white,
-                color: Colors.deepPurple,
+                splashColor: Colors.orange,
+                focusColor: Colors.deepOrange,
+                color: Colors.deepOrange,
                 onPressed: (){
                   //saveToFile();
                   print("Added User Name as " + myController.text);
