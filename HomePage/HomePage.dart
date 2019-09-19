@@ -11,6 +11,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  String used = '';
+
   @override
   void initState() {
     super.initState();
@@ -41,12 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
     if (currentStartupNumber == 3)
     {
       setState() {
-        print("Started more than 3 times");
+        used = "Yes";
       } 
       await _resetCounter();//For debug only
     } else {
         setState() {
-          print("Not yet tried app");
+          used = "No";
         }
     }
   }
@@ -75,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
             title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                new Text("School Live (Grade 12 e-Learning)",
+                new Text("$used (Grade 12 e-Learning)",
                     style: TextStyle(
                       fontSize: 14.0,
                       color: Colors.black,
