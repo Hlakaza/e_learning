@@ -11,7 +11,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  String used = '';
+  String _haveStarted3Times = '';
 
   @override
   void initState() {
@@ -19,33 +19,40 @@ class _MyHomePageState extends State<MyHomePage> {
     _incrementStartup();
   }
 
+  /// Will get the startupnumber from shared_preferences
+  /// will return 0 if null
   Future<int> _getIntFromSharedPref() async {
     final prefs = await SharedPreferences.getInstance();
     final startupNumber = prefs.getInt('startupNumber');
-    if (startupNumber == Null){
+    if (startupNumber == null) {
       return 0;
     }
-      return startupNumber;
+    return startupNumber;
   }
 
+  /// Reset the counter in shared_preferences to 0
   Future<void> _resetCounter() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt('startupNumber', 0);
   }
 
+  /// Will Increment the startup number and store it then
+  /// use setState to display in the UI
   Future<void> _incrementStartup() async {
     final prefs = await SharedPreferences.getInstance();
-    int lastStartupNumer = await _getIntFromSharedPref();
-    int currentStartupNumber = ++lastStartupNumer;
+
+    int lastStartupNumber = await _getIntFromSharedPref();
+    int currentStartupNumber = ++lastStartupNumber;
 
     await prefs.setInt('startupNumber', currentStartupNumber);
 
-    if (currentStartupNumber == 3)
-    {
-      setState(() => used = "Yes");
-      await _resetCounter();//For debug only
+    if (currentStartupNumber == 3) {
+      setState(() => _haveStarted3Times = '$currentStartupNumber Times Completed');
+
+      // Reset only if you want to
+      await _resetCounter();
     } else {
-        setState(() => used = "No");
+      setState(() => _haveStarted3Times = '$currentStartupNumber Times started the app');
     }
   }
 
@@ -73,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                new Text("$used (Grade 12 e-Learning)",
+                new Text("$_haveStarted3Times (Grade 12 e-Learning)",
                     style: TextStyle(
                       fontSize: 14.0,
                       color: Colors.black,
