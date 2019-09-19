@@ -671,10 +671,10 @@ class _HomePage_LSState extends State<HomePage_LS>
                                   children: <Widget>[
 
 
-                                    new TopicButton("${TopicButtonArray().TopicImage[79]}", "${TopicButtonArray().TopicTitle[79]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[80]}", "${TopicButtonArray().TopicTitle[80]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[81]}", "${TopicButtonArray().TopicTitle[81]}", "0"),
-                                    new TopicButton("${TopicButtonArray().TopicImage[82]}", "${TopicButtonArray().TopicTitle[82]}", "0"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[79]}", "${TopicButtonArray().TopicTitle[79]}", "79"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[80]}", "${TopicButtonArray().TopicTitle[80]}", "80"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[81]}", "${TopicButtonArray().TopicTitle[81]}", "81"),
+                                    new TopicButton("${TopicButtonArray().TopicImage[82]}", "${TopicButtonArray().TopicTitle[82]}", "82"),
                                     SizedBox(width: 20.0),
 
                                   ],
@@ -753,7 +753,7 @@ class BackgroundPattern extends CustomPainter {
 void _launchURL(BuildContext context) async {
   try {
     await launch(
-      'http://matriclive.com/new_feature/elearning/subjects/life_science.php?videoID=1',
+      'https://matriclive.com/new_feature/elearning/subjects/life_science.php?videoID=1',
       option: new CustomTabsOption(
         toolbarColor: TopicButtonArray().ColorTheme[0],
         enableDefaultShare: true,

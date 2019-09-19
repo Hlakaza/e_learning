@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import "package:intl/intl.dart";
 
 //This is the part the holds the top layout with the welcome message
 
 class WelcomeContainer extends StatelessWidget
 {
+
+  //DateTime now = new DateTime.now();
+
+  var formattedDate = int.parse(DateFormat('HH').format(DateTime.now()));
+  String timeofDay = "";
+
+
 
   final Shader linearGradient = LinearGradient(
     colors: <Color>[Color(0xfff47723),Color(0xfff05023)],
@@ -13,6 +21,12 @@ class WelcomeContainer extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+
+    if (formattedDate >= 00 && formattedDate <= 12)
+        timeofDay = "Morning" ;
+    else
+        timeofDay = "Afternoon";
+
     return new Container(
       width: MediaQuery.of(context).size.width,
       child: new Row(
@@ -20,7 +34,7 @@ class WelcomeContainer extends StatelessWidget
         children: <Widget> [   
           new Padding(
         padding: const EdgeInsets.all(20.0),
-        child: new Text("Welcome\n To School Live",
+        child: new Text("Good $timeofDay\n Lesego Finger",
           textAlign: TextAlign.start,
           style: TextStyle(
             fontSize: 25.0,

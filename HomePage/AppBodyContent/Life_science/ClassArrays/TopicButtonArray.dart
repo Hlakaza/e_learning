@@ -13,6 +13,8 @@ import '../Topics/Topic7.dart';
 import '../Topics/Topic8.dart';
 import '../Topics/Topic9.dart';
 import '../Topics/Topic10.dart';
+import '../Topics/Topic11.dart';
+import '../Topics/Topic12.dart';
 
 //PastPaper Route
 import '../Pastpapers/HPPastPaper.dart';
@@ -465,6 +467,30 @@ class TopicButton extends StatelessWidget
           case "70" : topic_route = Topic11R10(); //HomePage_TOUR();
           break;
           case "71" : topic_route = Topic12R10(); //HomePage_TOUR();
+          break;
+
+          case "72" : topic_route = Topic1R11(); //HomePage_TOUR();
+          break;
+          case "73" : topic_route = Topic2R11(); //HomePage_TOUR();
+          break;
+          case "74" : topic_route = Topic3R11(); //HomePage_TOUR();
+          break;
+          case "75" : topic_route = Topic4R11(); //HomePage_TOUR();
+          break;
+          case "76" : topic_route = Topic5R11(); //HomePage_TOUR();
+          break;
+          case "77" : topic_route = Topic6R11(); //HomePage_TOUR();
+          break;
+          case "78" : topic_route = Topic7R11(); //HomePage_TOUR();
+          break;
+
+          case "79" : topic_route = Topic1R12(); //HomePage_TOUR();
+          break;
+          case "80" : topic_route = Topic2R12(); //HomePage_TOUR();
+          break;
+          case "81" : topic_route = Topic3R12(); //HomePage_TOUR();
+          break;
+          case "82" : topic_route = Topic4R12(); //HomePage_TOUR();
           break;
 
 

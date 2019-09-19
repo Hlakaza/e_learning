@@ -223,63 +223,71 @@ class extraHscrollButtons extends StatelessWidget
                 new SizedBox(
                   width: 10.0,
                 ),
-                new Container(
-                  padding: const EdgeInsets.all(15.0),
-                  child: new Text(
-                    'Contact Details',
-                    style: new TextStyle(
-                        fontSize: 12.0,
-                        fontFamily: "NunitoSans-Regular",
-                        fontWeight: FontWeight.bold,
-                        color: Colors.red),
-                  ),
-                  decoration: new BoxDecoration(
-                    borderRadius: new BorderRadius.all(const Radius.circular(20.0)),
-                    color: Colors.red,
-                    gradient: new LinearGradient(
-                        colors: [Colors.white, Colors.white],
-                        begin: const FractionalOffset(0.5, 0.0),
-                        end: const FractionalOffset(0.0, 0.5),
-                        stops: [0.0, 1.0],
-                        tileMode: TileMode.clamp),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black12,
-                        offset: Offset(5.0,  1.0),
-                        blurRadius: 15.0,
-                      ),
-                    ],
+
+                InkWell(
+                  onTap: () => _contactDetails(context),
+                  child: new Container(
+                    padding: const EdgeInsets.all(15.0),
+                    child: new Text(
+                      'Contact Details',
+                      style: new TextStyle(
+                          fontSize: 12.0,
+                          fontFamily: "NunitoSans-Regular",
+                          fontWeight: FontWeight.bold,
+                          color: Colors.red),
+                    ),
+                    decoration: new BoxDecoration(
+                      borderRadius: new BorderRadius.all(const Radius.circular(20.0)),
+                      color: Colors.red,
+                      gradient: new LinearGradient(
+                          colors: [Colors.white, Colors.white],
+                          begin: const FractionalOffset(0.5, 0.0),
+                          end: const FractionalOffset(0.0, 0.5),
+                          stops: [0.0, 1.0],
+                          tileMode: TileMode.clamp),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black12,
+                          offset: Offset(5.0,  1.0),
+                          blurRadius: 15.0,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 new SizedBox(
                   width: 10.0,
                 ),
-                new Container(
-                  padding: const EdgeInsets.all(15.0),
-                  child: new Text(
-                    'More',
-                    style: new TextStyle(
-                        fontSize: 12.0,
-                        fontFamily: "NunitoSans-Regular",
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),
-                  ),
-                  decoration: new BoxDecoration(
-                    borderRadius: new BorderRadius.all(const Radius.circular(20.0)),
-                    color: Colors.red,
-                    gradient: new LinearGradient(
-                        colors: [Colors.deepPurple, Colors.deepPurpleAccent],
-                        begin: const FractionalOffset(0.5, 0.0),
-                        end: const FractionalOffset(0.0, 0.5),
-                        stops: [0.0, 1.0],
-                        tileMode: TileMode.clamp),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black12,
-                        offset: Offset(5.0,  1.0),
-                        blurRadius: 15.0,
-                      ),
-                    ],
+
+                InkWell(
+                  onTap: () => _moreDetails(context),
+                  child: new Container(
+                    padding: const EdgeInsets.all(15.0),
+                    child: new Text(
+                      'More',
+                      style: new TextStyle(
+                          fontSize: 12.0,
+                          fontFamily: "NunitoSans-Regular",
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    decoration: new BoxDecoration(
+                      borderRadius: new BorderRadius.all(const Radius.circular(20.0)),
+                      color: Colors.red,
+                      gradient: new LinearGradient(
+                          colors: [Colors.deepPurple, Colors.deepPurpleAccent],
+                          begin: const FractionalOffset(0.5, 0.0),
+                          end: const FractionalOffset(0.0, 0.5),
+                          stops: [0.0, 1.0],
+                          tileMode: TileMode.clamp),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black12,
+                          offset: Offset(5.0,  1.0),
+                          blurRadius: 15.0,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
@@ -289,4 +297,57 @@ class extraHscrollButtons extends StatelessWidget
     );
   }
 
+}
+
+
+_contactDetails(BuildContext context) {
+
+  // set up the button
+  Widget okButton = FlatButton(
+    child: Text("OK"),
+    onPressed: () { Navigator.pop(context); },
+  );
+
+  // set up the AlertDialog
+  AlertDialog alert = AlertDialog(
+    title: Text("Contact Details"),
+    content: Text("Call: 0611172308\nWhatsApp: 0611172308\nEmail: lesegofinger@matriclive.co.za"),
+    actions: [
+      okButton,
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
+}
+
+_moreDetails(BuildContext context) {
+
+  // set up the button
+  Widget okButton = FlatButton(
+    child: Text("OK"),
+    onPressed: () { Navigator.pop(context); },
+  );
+
+  // set up the AlertDialog
+  AlertDialog alert = AlertDialog(
+    title: Text("For more features"),
+    content: Text("Click the menu bar then click (Matric Live more feature) this has Grade 12 11 and 10 content"),
+    actions: [
+      okButton,
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
 }
